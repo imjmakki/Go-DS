@@ -28,4 +28,6 @@ func main() {
 	fmt.Printf("This is a %q\n", figure)
 
 	fmt.Printf("The diameter of a %v with a Radius of %v is %v\n", figure, radius, float64(radius)*2*pi)
+
+	fmt.Printf("figure is of type %T \n", figure)
 }
