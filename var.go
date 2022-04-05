@@ -7,5 +7,6 @@ func main() {
 	fmt.Println("Age: ", age)
 
 	var name = "MJ"
-	fmt.Println("Your name is: ", name)
+	//fmt.Println("Your name is: ", name)
+	_ = name
 }
