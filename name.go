@@ -35,4 +35,6 @@ func main() {
 
 	closed := true
 	fmt.Printf("File closed: %t \n", closed)
+
+	fmt.Printf("%b \n", 55)
 }
