@@ -38,4 +38,8 @@ func main() {
 
 	fmt.Printf("%08b \n", 55)
 	fmt.Printf("%x \n", 100)
+
+	x := 3.4
+	y := 6.9
+	fmt.Printf("x * y = %f\n", x*y)
 }
