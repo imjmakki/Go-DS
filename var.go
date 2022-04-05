@@ -15,4 +15,7 @@ func main() {
 
 	name1 := "Nabeel"
 	_ = name1
+
+	var opened = false
+	_ = opened
 }
