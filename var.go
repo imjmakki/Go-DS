@@ -8,5 +8,5 @@ func main() {
 
 	var name = "MJ"
 	//fmt.Println("Your name is: ", name)
-	_ = name
+	_ = name // to avoiding errors
 }
