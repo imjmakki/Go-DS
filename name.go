@@ -32,4 +32,7 @@ func main() {
 	fmt.Printf("figure is of type %T \n", figure)
 	fmt.Printf("radius is of type %T \n", radius)
 	fmt.Printf("pi is of type %T \n", pi)
+
+	closed := true
+	fmt.Printf("File closed: %t \n", closed)
 }
