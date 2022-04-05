@@ -8,4 +8,7 @@ func main() {
 
 	car, year := "BMW", 2022
 	_ = year
+
+	opened, file := true, "a.txt"
+	_, _ = opened, file
 }
