@@ -11,4 +11,15 @@ func main() {
 
 	opened, file := true, "a.txt"
 	_, _ = opened, file
+
+	var (
+		salary    float64
+		firstName string
+		gender    bool
+	)
+
+	fmt.Println(salary, firstName, gender)
+
+	var a, b, c int
+	fmt.Println(a, b, c)
 }
