@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment="Data Structures with Golang">
-      <change beforePath="$PROJECT_DIR$/zerovalue.go" beforeDir="false" afterPath="$PROJECT_DIR$/zerovalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/name.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
