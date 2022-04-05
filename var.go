@@ -9,4 +9,7 @@ func main() {
 	var name = "MJ"
 	//fmt.Println("Your name is: ", name)
 	_ = name // to avoiding errors
+
+	s := "Golang Course!"
+	fmt.Println(s)
 }
