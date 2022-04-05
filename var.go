@@ -12,4 +12,7 @@ func main() {
 
 	s := "Golang Course!"
 	fmt.Println(s)
+
+	name1 := "Nabeel"
+	_ = name1
 }
