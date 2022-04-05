@@ -30,4 +30,6 @@ func main() {
 	fmt.Printf("The diameter of a %v with a Radius of %v is %v\n", figure, radius, float64(radius)*2*pi)
 
 	fmt.Printf("figure is of type %T \n", figure)
+	fmt.Printf("radius is of type %T \n", radius)
+	fmt.Printf("pi is of type %T \n", pi)
 }
