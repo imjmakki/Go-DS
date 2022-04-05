@@ -17,7 +17,10 @@ func main() {
 	radius := 5
 	pi := 3.14159
 
-	_, _ = figure, pi
+	_ = figure
 
 	fmt.Printf("Radius is %d\n", radius)
+	fmt.Printf("Radius is %+d\n", radius)
+
+	fmt.Printf("Pi constant is %f\n", pi)
 }
