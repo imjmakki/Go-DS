@@ -28,4 +28,7 @@ func main() {
 	j, i = i, j //swapping variables
 
 	fmt.Println(i, j)
+
+	sum := 5 + 2.5
+	fmt.Println(sum)
 }
