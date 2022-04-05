@@ -12,4 +12,12 @@ func main() {
 	fmt.Printf("Your age is %d\n", 21)
 	fmt.Printf("x is %d, y is %f\n", 5, 9)
 	fmt.Printf("He says: \"Hello Go!\"\n")
+
+	figure := "Circle"
+	radius := 5
+	pi := 3.14159
+
+	_, _ = figure, pi
+
+	fmt.Printf("Radius is %d\n", radius)
 }
