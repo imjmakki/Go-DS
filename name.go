@@ -9,8 +9,6 @@ func main() {
 	a, b := 5, 7
 	fmt.Println("Sum:", a+b, "Mean Value:", (a+b)/2)
 
-	fmt.Printf("Your age is %d", 21)
-	fmt.Println()
-	fmt.Printf("x is %d, y is %f", 5, 9)
-	fmt.Println()
+	fmt.Printf("Your age is %d\n", 21)
+	fmt.Printf("x is %d, y is %f\n", 5, 9)
 }
