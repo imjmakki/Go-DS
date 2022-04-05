@@ -22,4 +22,9 @@ func main() {
 
 	var a, b, c int
 	fmt.Println(a, b, c)
+
+	var i, j int
+	i, j = 5, 8
+
+	_, _ = i, j
 }
