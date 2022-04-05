@@ -7,6 +7,6 @@ func main() {
 	fmt.Println("Hello, All I'm", name)
 
 	a, b := 5, 7
-	fmt.Println("Sum: ", a+b, "Mean Value: ", (a+b)/2)
+	fmt.Println("Sum:", a+b, "Mean Value:", (a+b)/2)
 	fmt.Printf("Your age is %d", 21)
 }
