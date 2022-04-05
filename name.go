@@ -24,4 +24,6 @@ func main() {
 
 	fmt.Printf("Pi constant is %f\n", pi)
 	fmt.Printf("The diameter of a %s with a Radius of %d is %f\n", figure, radius, float64(radius)*2*pi)
+
+	fmt.Printf("This is a %q", figure)
 }
