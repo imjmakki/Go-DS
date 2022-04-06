@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 	var x = 3
@@ -15,4 +18,10 @@ func main() {
 
 	var myStr = fmt.Sprintf("%f", 44.2)
 	fmt.Println(myStr)
+
+	s1 := "3.123"
+
+	var f1, err = strconv.ParseFloat(s1, 64)
+	_ = err
+	fmt.Println(f1)
 }
