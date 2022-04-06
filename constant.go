@@ -12,4 +12,10 @@ func main() {
 		min3
 	)
 	fmt.Println(min1, min2, min3)
+
+	const d = 5 > 10
+	fmt.Println(d)
+
+	const y = 2.2 * 5
+	fmt.Println("%T\n", y)
 }
