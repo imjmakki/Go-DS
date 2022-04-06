@@ -32,4 +32,11 @@ func main() {
 		c33
 	)
 	fmt.Println(c11, c22, c33)
+
+	const (
+		a = iota * 2
+		b
+		c
+	)
+	fmt.Println(a, b, c)
 }
