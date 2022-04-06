@@ -23,5 +23,5 @@ func main() {
 
 	var f1, err = strconv.ParseFloat(s1, 64)
 	_ = err
-	fmt.Println(f1)
+	fmt.Println(f1 * 3.4)
 }
