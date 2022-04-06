@@ -15,4 +15,7 @@ func main() {
 		nama string
 		age  int
 	}
+
+	var you Person
+	fmt.Printf("%T\n", you)
 }
