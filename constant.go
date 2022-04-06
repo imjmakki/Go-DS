@@ -39,4 +39,12 @@ func main() {
 		c
 	)
 	fmt.Println(a, b, c)
+
+	const (
+		o = -(iota + 2)
+		_
+		p
+		q
+	)
+	fmt.Println(o, p, q)
 }
