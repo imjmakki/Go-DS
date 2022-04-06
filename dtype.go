@@ -12,7 +12,7 @@ func main() {
 
 	//struct type
 	type Person struct {
-		nama string
+		name string
 		age  int
 	}
 
