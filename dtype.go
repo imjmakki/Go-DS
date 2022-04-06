@@ -23,4 +23,11 @@ func main() {
 	var x int = 2
 	ptr := &x
 	fmt.Printf("ptr is of type %T with the value of %v\n", ptr, ptr)
+
+	//function type
+	fmt.Printf("%T\n", f)
+}
+
+func f() {
+
 }
