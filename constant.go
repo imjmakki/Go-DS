@@ -17,5 +17,5 @@ func main() {
 	fmt.Println(d)
 
 	const y = 2.2 * 5
-	fmt.Println("%T\n", y)
+	fmt.Printf("%T\n", y)
 }
