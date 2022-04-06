@@ -8,5 +8,5 @@ func main() {
 	var s1 speed = 10
 	var s2 speed = 20
 
-	fmt.Println(s1, s2)
+	fmt.Println(s2 - s1)
 }
