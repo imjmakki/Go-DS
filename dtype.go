@@ -9,4 +9,10 @@ func main() {
 		"EUR": 511.11,
 	}
 	fmt.Printf("%T\n", balances)
+
+	//struct type
+	type Person struct {
+		nama string
+		age  int
+	}
 }
