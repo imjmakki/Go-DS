@@ -28,6 +28,6 @@ func main() {
 	i, err := strconv.Atoi("-50")
 	s2 := strconv.Itoa(20)
 
-	fmt.Printf("i type is %T, i vlue is %v", i, i)
-	fmt.Printf("s type is %T, i value is %q", s2, s2)
+	fmt.Printf("i type is %T, i vlue is %v\n", i, i)
+	fmt.Printf("s type is %T, i value is %q\n", s2, s2)
 }
