@@ -24,4 +24,10 @@ func main() {
 	var f1, err = strconv.ParseFloat(s1, 64)
 	_ = err
 	fmt.Println(f1 * 3.4)
+
+	i, err := strconv.Atoi("-50")
+	s2 := strconv.Itoa(20)
+
+	fmt.Printf("i type is %T, i vlue is %v", i, i)
+	fmt.Printf("s type is %T, i value is %q", s2, s2)
 }
