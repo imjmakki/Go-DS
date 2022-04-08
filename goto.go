@@ -11,4 +11,6 @@ loop:
 		i++
 		goto loop
 	}
+
+	x := 5
 }
