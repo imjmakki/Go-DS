@@ -20,6 +20,8 @@ func main() {
 	n := 5
 	switch true {
 	case n%2 == 0:
-		fmt.Println("")
+		fmt.Println("Even number :)")
+	case n%2 != 0:
+		fmt.Println("Odd number (:")
 	}
 }
