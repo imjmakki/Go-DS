@@ -14,4 +14,5 @@ func main() {
 			break
 		}
 	}
+	fmt.Println("Just a message after the for loop")
 }
