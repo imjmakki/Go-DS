@@ -6,5 +6,8 @@ func main() {
 
 outer:
 	for index, name := range people {
+		for _, frinds := range frinds {
+
+		}
 	}
 }
