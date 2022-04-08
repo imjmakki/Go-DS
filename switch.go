@@ -16,4 +16,9 @@ func main() {
 		fmt.Println("C/C++ is the basic of programming :)")
 		break
 	}
+
+	n := 5
+	switch true {
+
+	}
 }
