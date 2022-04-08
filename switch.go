@@ -23,5 +23,7 @@ func main() {
 		fmt.Println("Even number :)")
 	case n%2 != 0:
 		fmt.Println("Odd number (:")
+	default:
+		fmt.Println("Never been here")
 	}
 }
