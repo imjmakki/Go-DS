@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Println("os.Args", os.Args)
+	fmt.Println("Path: ", os.Args[0])
 }
