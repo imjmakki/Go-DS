@@ -15,4 +15,5 @@ func main() {
 
 	var result, err = strconv.ParseFloat(os.Args[1], 64)
 	fmt.Println(result)
+	_ = err
 }
