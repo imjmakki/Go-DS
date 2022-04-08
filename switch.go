@@ -8,5 +8,6 @@ func main() {
 	switch language {
 	case "Python":
 		fmt.Println("you are learning Python! You don't use curly braces but indentation!!")
+		break
 	}
 }
