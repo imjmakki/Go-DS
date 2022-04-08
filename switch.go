@@ -31,4 +31,5 @@ func main() {
 	}
 
 	hour := time.Now().Hour()
+	fmt.Println(hour)
 }
