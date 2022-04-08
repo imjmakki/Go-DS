@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	outer := 19
+	_ = outer
 	people := [5]string{"Helen", "Mark", "Brenda", "Antonio", "Micheal"}
 	friends := [2]string{"Mark", "Marry"}
 
