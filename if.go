@@ -10,6 +10,5 @@ func main() {
 	}
 
 	if price <= 100 && inStock == true {
-
 	}
 }
