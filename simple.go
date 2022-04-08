@@ -27,5 +27,6 @@ func main() {
 		fmt.Println("The argument must be an integer! Error:", err)
 	} else {
 		fmt.Printf("%d km in miles is %v\n", km, float64(km)*0.621)
+		fmt.Printf("%T\n", args[1])
 	}
 }
