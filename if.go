@@ -8,5 +8,8 @@ func main() {
 	if price > 80 {
 		fmt.Println("Too expensive!")
 	}
-	_ = inStock
+
+	if price <= 100 && inStock == true {
+
+	}
 }
