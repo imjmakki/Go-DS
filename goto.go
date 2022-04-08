@@ -12,5 +12,8 @@ loop:
 		goto loop
 	}
 
+	goto todo
 	x := 5
+todo:
+	fmt.Println("something here")
 }
