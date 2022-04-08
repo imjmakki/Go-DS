@@ -14,5 +14,6 @@ func main() {
 		break
 	default:
 		fmt.Println("C/C++ is the basic of programming :)")
+		break
 	}
 }
