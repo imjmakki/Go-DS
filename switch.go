@@ -36,5 +36,7 @@ func main() {
 	switch {
 	case hour < 12:
 		fmt.Println("Good Morning :)")
+	case hour < 17:
+		fmt.Println("Good Evening :)")
 	}
 }
