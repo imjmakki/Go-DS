@@ -19,6 +19,7 @@ func main() {
 
 	n := 5
 	switch true {
-
+	case n%2 == 0:
+		fmt.Println("")
 	}
 }
