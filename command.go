@@ -14,6 +14,7 @@ func main() {
 	//fmt.Println("No. of items inside os.Args: ", len(os.Args))
 
 	var result, err = strconv.ParseFloat(os.Args[1], 64)
-	fmt.Println(result)
+	fmt.Printf("%T\n", os.Args[1])
+	fmt.Printf("%T\n", result)
 	_ = err
 }
