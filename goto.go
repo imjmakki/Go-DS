@@ -12,8 +12,9 @@ loop:
 		goto loop
 	}
 
-	goto todo
-	x := 5
-todo:
-	fmt.Println("something here")
+	//This is an error
+	//	goto todo
+	//	x := 5
+	//todo:
+	//	fmt.Println("something here")
 }
