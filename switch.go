@@ -13,6 +13,6 @@ func main() {
 		fmt.Println("Great, go for Go :) You are using curley braces{} :)")
 		break
 	default:
-		fmt.Println("")
+		fmt.Println("C/C++ is the basic of programming :)")
 	}
 }
