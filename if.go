@@ -12,4 +12,12 @@ func main() {
 	if price <= 100 && inStock == true {
 		fmt.Println("Buy it!")
 	}
+
+	if price < 100 {
+		fmt.Println("It's cheap!")
+	} else if price == 100 {
+		fmt.Println("On the edge!")
+	} else {
+		fmt.Println("It's expensive")
+	}
 }
