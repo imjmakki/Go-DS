@@ -6,7 +6,7 @@ func main() {
 
 outer:
 	for index, name := range people {
-		for _, friends := range friends {
+		for _, friend := range friends {
 			if name == friend {
 
 			}
