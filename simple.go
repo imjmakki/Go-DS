@@ -13,4 +13,8 @@ func main() {
 	} else {
 		fmt.Println(i)
 	}
+
+	if i, err := strconv.Atoi("20"); err == nil {
+		fmt.Println("No error, i is: ", i)
+	}
 }
