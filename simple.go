@@ -26,6 +26,6 @@ func main() {
 	} else if km, err := strconv.Atoi(args[1]); err != nil {
 		fmt.Println("The argument must be an integer! Error:", err)
 	} else {
-		fmt.Printf("%d km in miles is %v\n", km, float64(km)*1.609)
+		fmt.Printf("%d km in miles is %v\n", km, float64(km)*0.621)
 	}
 }
