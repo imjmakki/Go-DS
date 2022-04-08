@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	language := "Golang"
@@ -26,4 +29,6 @@ func main() {
 	default:
 		fmt.Println("Never been here")
 	}
+
+	hour := time.Now().Hour()
 }
