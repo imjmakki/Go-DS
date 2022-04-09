@@ -17,4 +17,7 @@ func main() {
 	type names []string
 	friends := names{"Dan", "Maria"}
 	fmt.Println(friends)
+
+	myFriend := friends[0]
+	fmt.Println("My best friend is:", myFriend)
 }
