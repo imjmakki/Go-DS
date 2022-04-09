@@ -27,4 +27,8 @@ func main() {
 	for index, value := range numbers {
 		fmt.Printf("index: %v, value: %v\n", index, value)
 	}
+
+	var n []int
+	n = numbers
+	fmt.Println(n)
 }
