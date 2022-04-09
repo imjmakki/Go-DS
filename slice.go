@@ -13,4 +13,6 @@ func main() {
 
 	nums := make([]int, 2)
 	fmt.Printf("%#v\n", nums)
+
+	type name []string
 }
