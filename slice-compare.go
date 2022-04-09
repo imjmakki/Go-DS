@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 	var n []int
-	fmt.Println()
+	fmt.Println(n == nil)
 }
