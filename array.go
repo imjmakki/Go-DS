@@ -10,4 +10,7 @@ func main() {
 
 	var a1 = [4]float64{}
 	fmt.Printf("%#v\n", a1)
+
+	var a2 = [4]int{-10, 1, 100}
+	fmt.Printf("%#v\n", a2)
 }
