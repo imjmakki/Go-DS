@@ -10,4 +10,7 @@ func main() {
 
 	numbers := []int{2, 3, 4, 5}
 	fmt.Println(numbers)
+
+	nums := make([]int, 2)
+	fmt.Printf("%#v\n", nums)
 }
