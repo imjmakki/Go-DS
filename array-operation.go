@@ -31,4 +31,5 @@ func main() {
 	n := m
 	fmt.Println("n is equal to m:", n == m)
 	m[0] = -1
+	fmt.Println("n is equal to m:", n == m)
 }
