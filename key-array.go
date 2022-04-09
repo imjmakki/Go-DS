@@ -12,4 +12,9 @@ func main() {
 
 	accounts := [3]int{2: 50}
 	fmt.Println(accounts)
+
+	names := [...]string{
+		5: "Dan",
+	}
+	fmt.Println(names)
 }
