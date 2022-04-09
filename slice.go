@@ -25,6 +25,6 @@ func main() {
 	fmt.Println("My best friend is:", friends[0])
 
 	for index, value := range numbers {
-		fmt.Printf("index: %v, value: %v", index, value)
+		fmt.Printf("index: %v, value: %v\n", index, value)
 	}
 }
