@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(len(cities))
 
 	numbers := []int{2, 3, 4, 5}
+	fmt.Println(numbers)
 }
