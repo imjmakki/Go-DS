@@ -12,4 +12,8 @@ func main() {
 	for i, v := range numbers {
 		fmt.Println("index:", i, "value:", v)
 	}
+
+	for i = 0; i <len(numbers), i++{
+
+	}
 }
