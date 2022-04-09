@@ -7,4 +7,6 @@ func main() {
 	fmt.Println("The cities is equal to nil", cities == nil)
 	fmt.Printf("cities %#v\n", cities)
 	fmt.Println(len(cities))
+
+	numbers := []int{2, 3, 4, 5}
 }
