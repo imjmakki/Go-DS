@@ -7,4 +7,5 @@ func main() {
 	fmt.Printf("%#v\n", numbers)
 
 	numbers[0] = 7
+	fmt.Printf("%#v\n", numbers)
 }
