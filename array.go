@@ -13,4 +13,7 @@ func main() {
 
 	var a2 = [4]int{-10, 1, 100}
 	fmt.Printf("%#v\n", a2)
+
+	a3 := [4]string{"Dan", "Diana", "Paul", "John"}
+	fmt.Printf("%#v\n", a3)
 }
