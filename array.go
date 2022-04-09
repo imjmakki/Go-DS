@@ -19,4 +19,16 @@ func main() {
 
 	a4 := [4]string{"x", "y"}
 	fmt.Printf("%#v\n", a4)
+
+	a5 := [...]int{1, 2, 5, 1, -10, 66}
+	fmt.Printf("%#v\n", a5)
+	fmt.Printf("The length of a5 is %d\n", len(a5))
+
+	a6 := [...]int{1,
+		2,
+		3,
+		4,
+		5,
+	}
+	fmt.Println(a6)
 }
