@@ -20,4 +20,9 @@ func main() {
 	for i := 0; i < len(numbers); i++ {
 		fmt.Println("index:", i, "value:", numbers[i])
 	}
+
+	balances := [2][3]int{
+		{5, 6, 7},
+		{8, 9, 10},
+	}
 }
