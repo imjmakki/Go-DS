@@ -23,4 +23,8 @@ func main() {
 
 	friends[0] = "Gabriel"
 	fmt.Println("My best friend is:", friends[0])
+
+	for index, value := range numbers {
+
+	}
 }
