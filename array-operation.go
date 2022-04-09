@@ -30,4 +30,5 @@ func main() {
 	m := [3]int{1, 2, 3}
 	n := m
 	fmt.Println("n is equal to m:", n == m)
+	m[0] = -1
 }
