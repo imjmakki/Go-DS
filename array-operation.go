@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	numbers := [3]int{10, 20, 30}
@@ -13,6 +16,7 @@ func main() {
 		fmt.Println("index:", i, "value:", v)
 	}
 
+	fmt.Println(strings.Repeat("#", 20))
 	for i := 0; i < len(numbers); i++ {
 		fmt.Println("index:", i, "value:", numbers[i])
 	}
