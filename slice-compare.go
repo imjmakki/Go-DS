@@ -6,6 +6,6 @@ func main() {
 	var n []int
 	fmt.Println(n == nil)
 
-	var m []int{}
+	m := []int{}
 	fmt.Println(m == nil)
 }
