@@ -16,4 +16,7 @@ func main() {
 
 	a3 := [4]string{"Dan", "Diana", "Paul", "John"}
 	fmt.Printf("%#v\n", a3)
+
+	a4 := [4]string{"x", "y"}
+	fmt.Printf("%#v\n", a4)
 }
