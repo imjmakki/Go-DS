@@ -24,4 +24,7 @@ func main() {
 		1: "NYC",
 	}
 	fmt.Printf("%#v\n", cities)
+
+	weekend := [7]bool{5: true, 6: true}
+	fmt.Println(weekend)
 }
