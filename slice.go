@@ -20,4 +20,7 @@ func main() {
 
 	myFriend := friends[0]
 	fmt.Println("My best friend is:", myFriend)
+
+	friends[0] = "Gabriel"
+	fmt.Println("My best friend is:", friends[0])
 }
