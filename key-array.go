@@ -17,4 +17,11 @@ func main() {
 		5: "Dan",
 	}
 	fmt.Println(names)
+
+	cities := [...]string{
+		5: "Paris",
+		"London",
+		1: "NYC",
+	}
+	fmt.Printf("%#v\n", cities)
 }
