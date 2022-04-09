@@ -14,6 +14,6 @@ func main() {
 	}
 
 	for i := 0; i < len(numbers); i++ {
-
+		fmt.Println("index:", i, "value:", numbers[i])
 	}
 }
