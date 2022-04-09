@@ -8,4 +8,8 @@ func main() {
 
 	numbers[0] = 7
 	fmt.Printf("%#v\n", numbers)
+
+	for i, v := range numbers {
+		fmt.Println("index:", i, "value:", v)
+	}
 }
