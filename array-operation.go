@@ -13,7 +13,7 @@ func main() {
 		fmt.Println("index:", i, "value:", v)
 	}
 
-	for i = 0; i <len(numbers), i++{
+	for i := 0; i < len(numbers); i++ {
 
 	}
 }
