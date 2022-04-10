@@ -47,4 +47,8 @@ func main() {
 	s = []string{"I", "Learn", "Golang"}
 	myStr = strings.Join(s, " ")
 	p(myStr)
+
+	myStr = "Orange Green \n Blue Yellow"
+	fields := strings.Fields(myStr)
+	fmt.Printf("%T\n", fields)
 }
