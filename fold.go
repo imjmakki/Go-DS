@@ -52,4 +52,7 @@ func main() {
 	fields := strings.Fields(myStr)
 	fmt.Printf("%T\n", fields)
 	fmt.Printf("%#v\n", fields)
+
+	s1 := strings.TrimSpace("\t  Goodbye Windows, Welcome Linux!")
+	fmt.Printf("%q\n", s1)
 }
