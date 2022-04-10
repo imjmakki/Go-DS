@@ -9,6 +9,6 @@ func main() {
 	fmt.Println("He Says: \"Hello\"")
 	fmt.Println(`He Says: "Hello"`)
 
-	s2 := `I like Go!`
+	s2 := `I like \n Go!`
 	fmt.Println(s2)
 }
