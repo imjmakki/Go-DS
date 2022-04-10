@@ -16,12 +16,12 @@ func main() {
 	fmt.Println("Byte (not rune) at position 1:", str[1])
 
 	for i := 0; i < len(str); i++ {
-		fmt.Printf("%c\n", str[i])
+		fmt.Printf("%c", str[i])
 	}
 	fmt.Println("\n", strings.Repeat("#", 20))
 	for i := 0; i < len(str); {
 		r, size := utf8.DecodeRuneInString(str[i:])
-		fmt.Printf("%c\n", r)
+		fmt.Printf("%c", r)
 		i += size
 	}
 	fmt.Println("\n", strings.Repeat("#", 20))
