@@ -57,5 +57,5 @@ func main() {
 	fmt.Printf("%q\n", s1)
 
 	s2 := strings.Trim("...Hello Gophers!!!!?", ".!?")
-	fmt.Printf("", s2)
+	fmt.Printf("%q\n", s2)
 }
