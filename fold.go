@@ -30,4 +30,7 @@ func main() {
 
 	myStr := strings.Replace("192.168.0.1", ".", ":", 2)
 	p(myStr)
+
+	myStr = strings.Replace("192.168.0.1", ".", ":", -1)
+	p(myStr)
 }
