@@ -8,4 +8,6 @@ func main() {
 
 	str := "tara"
 	fmt.Println(len(str))
+
+	fmt.Println("Byte (not rune) at position 1:", str[1])
 }
