@@ -20,4 +20,7 @@ Brand: Nike
 
 	fmt.Println(`C:\Users\MJ`)
 	fmt.Println("C:\\Users\\MJ")
+
+	var s3 = "I Love" + "Go" + "Programming"
+	fmt.Println(s3 + "!")
 }
