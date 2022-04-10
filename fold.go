@@ -36,4 +36,8 @@ func main() {
 
 	myStr = strings.ReplaceAll("192.168.0.1", ".", ":")
 	p(myStr)
+
+	s := strings.Split("a,b,c", ",")
+	fmt.Printf("%T\n", s)
+	fmt.Printf("%#v\n", s)
 }
