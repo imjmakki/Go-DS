@@ -24,4 +24,8 @@ func main() {
 		fmt.Printf("%c\n", r)
 		i += size
 	}
+	fmt.Println("\n", strings.Repeat("#", 20))
+	for _, r := range str {
+		fmt.Printf("%c", r)
+	}
 }
