@@ -45,6 +45,6 @@ func main() {
 	fmt.Printf("%#v\n", s)
 
 	s = []string{"I", "Learn", "Golang"}
-	myStr = strings.Join(s, "")
+	myStr = strings.Join(s, " ")
 	p(myStr)
 }
