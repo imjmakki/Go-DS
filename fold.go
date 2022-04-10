@@ -27,4 +27,7 @@ func main() {
 
 	p(strings.ToUpper("go") == strings.ToUpper("Go"))
 	p(strings.EqualFold("GO", "go"))
+
+	myStr := strings.Replace("192.168.0.1", ".", ":", 2)
+	p(myStr)
 }
