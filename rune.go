@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Println("Byte (not rune) at position 1:", str[1])
 
-	for i = 0; i < len(str); i++ {
-
+	for i := 0; i < len(str); i++ {
+		fmt.Printf("%c", str[i])
 	}
 }
