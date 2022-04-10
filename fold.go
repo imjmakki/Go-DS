@@ -24,4 +24,7 @@ func main() {
 
 	p(strings.ToLower("Go Python Java"))
 	p(strings.ToUpper("Go Python Java"))
+
+	p(strings.ToUpper("go") == strings.ToUpper("Go"))
+	p(strings.EqualFold("GO", "go"))
 }
