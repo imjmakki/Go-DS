@@ -53,6 +53,6 @@ func main() {
 	fmt.Printf("%T\n", fields)
 	fmt.Printf("%#v\n", fields)
 
-	s1 := strings.TrimSpace("\t  Goodbye Windows, Welcome Linux!")
+	s1 := strings.TrimSpace("\t  Goodbye Windows, Welcome Linux!  \n")
 	fmt.Printf("%q\n", s1)
 }
