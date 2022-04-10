@@ -11,4 +11,10 @@ func main() {
 
 	s2 := `I like \n Go!`
 	fmt.Println(s2)
+
+	fmt.Println("Price: 100\nBrand: Nike")
+	fmt.Println(`
+Price: 100
+Brand: Nike
+`)
 }
