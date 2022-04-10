@@ -19,6 +19,8 @@ func main() {
 	}
 
 	for i := 0; i < len(str); {
-		r, size := utf8.DecodeRuneInString()
+		r, size := utf8.DecodeRuneInString(str[i:])
+		fmt.Printf("%c\n", r)
+		i += size
 	}
 }
