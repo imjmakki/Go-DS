@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"unicode/utf8"
 )
 
@@ -17,7 +18,7 @@ func main() {
 	for i := 0; i < len(str); i++ {
 		fmt.Printf("%c\n", str[i])
 	}
-
+	fmt.Println("\n", strings.Repeat("#", 20))
 	for i := 0; i < len(str); {
 		r, size := utf8.DecodeRuneInString(str[i:])
 		fmt.Printf("%c\n", r)
