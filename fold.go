@@ -15,4 +15,10 @@ func main() {
 
 	result = strings.ContainsRune("Golang", 'g')
 	p(result)
+
+	n := strings.Count("cheese", "e")
+	p(n)
+
+	n = strings.Count("Five", "")
+	p(n)
 }
