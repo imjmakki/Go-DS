@@ -55,4 +55,7 @@ func main() {
 
 	s1 := strings.TrimSpace("\t  Goodbye Windows, Welcome Linux!  \n")
 	fmt.Printf("%q\n", s1)
+
+	s2 := strings.Trim("...Hello Gophers!!!!?", ".!?")
+	fmt.Printf("", s2)
 }
