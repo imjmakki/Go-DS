@@ -17,4 +17,7 @@ func main() {
 Price: 100
 Brand: Nike
 `)
+
+	fmt.Println(`C:\Users\MJ`)
+	fmt.Println("C:\\Users\\MJ")
 }
