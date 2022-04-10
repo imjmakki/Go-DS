@@ -21,4 +21,7 @@ func main() {
 
 	n = strings.Count("Five", "")
 	p(n)
+
+	p(strings.ToLower("Go Python Java"))
+	p(strings.ToUpper("Go Python Java"))
 }
