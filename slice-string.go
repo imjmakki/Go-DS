@@ -8,4 +8,5 @@ func main() {
 
 	rs := []rune(s1)
 	fmt.Printf("%T\n", rs)
+	fmt.Println(string(s1[0:3]))
 }
