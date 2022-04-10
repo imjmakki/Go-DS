@@ -7,4 +7,5 @@ func main() {
 	fmt.Println(s1)
 
 	fmt.Println("He Says: \"Hello\"")
+	fmt.Println(`He Says: "Hello"`)
 }
