@@ -51,4 +51,5 @@ func main() {
 	myStr = "Orange Green \n Blue Yellow"
 	fields := strings.Fields(myStr)
 	fmt.Printf("%T\n", fields)
+	fmt.Printf("%#v\n", fields)
 }
