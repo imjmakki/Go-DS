@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unicode/utf8"
+)
 
 func main() {
 	var1, var2 := 'a', 'b'
@@ -13,5 +16,9 @@ func main() {
 
 	for i := 0; i < len(str); i++ {
 		fmt.Printf("%c\n", str[i])
+	}
+
+	for i := 0; i < len(str); {
+		r, size := utf8.DecodeRuneInString()
 	}
 }
