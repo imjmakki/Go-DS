@@ -40,4 +40,7 @@ func main() {
 	s := strings.Split("a,b,c", ",")
 	fmt.Printf("%T\n", s)
 	fmt.Printf("%#v\n", s)
+
+	s = strings.Split("Go for Go!", "")
+	fmt.Printf("%#v\n", s)
 }
