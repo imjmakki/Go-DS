@@ -12,4 +12,7 @@ func main() {
 
 	result = strings.Contains("success", "xy")
 	p(result)
+
+	result = strings.ContainsRune("Golang", 'g')
+	p(result)
 }
