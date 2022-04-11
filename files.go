@@ -40,4 +40,6 @@ func main() {
 	var fileInfo os.FileInfo
 	fileInfo, err = os.Stat("a.txt")
 	p := fmt.Println
+
+	p("File name:", fileInfo.Name())
 }
