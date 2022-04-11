@@ -30,4 +30,7 @@ func main() {
 		"CHF": 3243.1,
 	}
 	fmt.Println(balances)
+
+	m := map[int]int{1: 10, 2: 20, 3: 30}
+	_ = m
 }
