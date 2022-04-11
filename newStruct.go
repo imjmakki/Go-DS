@@ -17,4 +17,5 @@ func main() {
 	fmt.Printf("%+v\n", lastBook)
 
 	aBook := book{title: "Anna karenina", author: "", year: 0}
+	fmt.Println(aBook == lastBook)
 }
