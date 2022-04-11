@@ -21,6 +21,10 @@ func SumAndProduct(a ...float64) (float64, float64) {
 	return sum, product
 }
 
+func personInfo(age int, name ...string) string {
+
+}
+
 func main() {
 	g1(1, 2, 3, 4)
 	g1()
