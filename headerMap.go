@@ -9,4 +9,12 @@ func main() {
 
 	friends["Dan"] = 50
 	fmt.Println(neighbors)
+
+	people := make(map[string]int)
+	for k, v := range friends {
+		people[k] = v
+	}
+
+	people["Anne"] = 18
+	fmt.Printf("%#v --------------- %#v\n")
 }
