@@ -42,4 +42,5 @@ func main() {
 	p := fmt.Println
 
 	p("File name:", fileInfo.Name())
+	p("Size in bytes:", fileInfo.Size())
 }
