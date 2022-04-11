@@ -14,7 +14,7 @@ func f3(a, b, c int, d, e float64, s string) {
 	fmt.Println(a, b, c, d, e, s)
 }
 
-func f4() {
+func f4(a float64) float64 {
 
 }
 
