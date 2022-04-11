@@ -36,4 +36,6 @@ func main() {
 		log.Fatal(err)
 	}
 	file1.Close()
+
+	var fileInfo os.FileInfo
 }
