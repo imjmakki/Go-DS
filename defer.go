@@ -18,4 +18,5 @@ func main() {
 	defer foo()
 	bar()
 	fmt.Println("Just a string after defering foo() and calling bar()")
+	defer foobar()
 }
