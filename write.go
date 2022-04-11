@@ -24,4 +24,6 @@ func main() {
 
 	bytesAvailable := bufferedWriter.Available()
 	log.Printf("Bytes available in buffer: %d\n", bytesAvailable)
+
+	bytesWritten, err = bufferedWriter.WriteString("\nJust a random string")
 }
