@@ -12,7 +12,8 @@ func g2(a ...int) {
 }
 
 func SumAndProduct(a ...float64) (float64, float64) {
-
+	sum := 0
+	product := 1
 }
 
 func main() {
