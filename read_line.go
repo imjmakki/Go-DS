@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 )
@@ -23,4 +24,5 @@ func main() {
 			log.Fatal(err)
 		}
 	}
+	fmt.Println("First line found:", scanner.Text())
 }
