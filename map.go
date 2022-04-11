@@ -9,4 +9,7 @@ func main() {
 	f("No. of pairs : %d\n", len(employees))
 	f("The value for key %q is %q\n", "Dan", employees["Dan"])
 
+	var accounts map[string]float64
+	f("%#v\n", accounts["0x323"])
+
 }
