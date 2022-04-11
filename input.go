@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -28,4 +29,7 @@ func main() {
 	}
 
 	fmt.Println("Just a message after for loop.")
+	if err := scanner.Err(); err != nil {
+		log.Println(err)
+	}
 }
