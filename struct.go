@@ -28,4 +28,9 @@ func main() {
 
 	aBook := book{title: "Just a Random Book"}
 	fmt.Printf("%#v\n", aBook)
+
+	diana := struct {
+		firstName, lastName string
+		age int
+	}
 }
