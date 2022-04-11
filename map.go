@@ -27,5 +27,7 @@ func main() {
 	balances := map[string]float64{
 		"USD": 323.11,
 		"EUR": 432.13,
+		"CHF": 3243.1,
 	}
+	fmt.Println(balances)
 }
