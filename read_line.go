@@ -24,8 +24,11 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-	fmt.Println("First line found:", scanner.Text())
+	fmt.Println("First line found:", scanner.Bytes())
 	for scanner.Scan() {
 		fmt.Println(scanner.Text())
+	}
+	if err := scanner.Err(); err != nil {
+		log.Fatal()
 	}
 }
