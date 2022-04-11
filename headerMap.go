@@ -16,5 +16,5 @@ func main() {
 	}
 
 	people["Anne"] = 18
-	fmt.Printf("%#v --------------- %#v\n")
+	fmt.Printf("%#v --------------- %#v\n", people, friends)
 }
