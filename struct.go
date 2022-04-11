@@ -48,4 +48,11 @@ func main() {
 
 	b1 := Book{"1984 by George Orwell", 10.2, false}
 	fmt.Printf("%#v\n", b1)
+	fmt.Println(b1.string)
+
+	type Employee struct {
+		name   string
+		salary int
+		bool
+	}
 }
