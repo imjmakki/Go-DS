@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment="Data Structures with Golang" />
+    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment="Data Structures with Golang">
+      <change beforePath="$PROJECT_DIR$/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/map.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
