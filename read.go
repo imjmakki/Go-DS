@@ -20,4 +20,5 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Printf("Number of bytes read: %d\n", numberBytesRead)
+	log.Printf("Data read: %s\n", byteSlice)
 }
