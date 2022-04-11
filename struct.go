@@ -31,6 +31,9 @@ func main() {
 
 	diana := struct {
 		firstName, lastName string
-		age int
+		age                 int
+	}{
+		firstName: "Diana",
+		lastName:  "Muller",
 	}
 }
