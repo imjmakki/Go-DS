@@ -18,6 +18,7 @@ func SumAndProduct(a ...float64) (float64, float64) {
 		sum += v
 		product *= v
 	}
+	return sum, product
 }
 
 func main() {
