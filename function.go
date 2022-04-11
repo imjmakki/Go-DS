@@ -7,7 +7,7 @@ func f1() {
 }
 
 func f2(a int, b int) {
-
+	fmt.Println("Sum:", a+b)
 }
 
 func main() {
