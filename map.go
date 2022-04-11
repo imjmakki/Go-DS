@@ -13,5 +13,5 @@ func main() {
 	f("%#v\n", accounts["0x323"])
 
 	var m1 map[[5]int]string
-
+	_ = m1
 }
