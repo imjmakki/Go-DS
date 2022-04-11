@@ -31,4 +31,7 @@ func main() {
 	f3(4, 5, 6, 4.4, 7.8, "Golang")
 	p := f4(5.1)
 	fmt.Println(p)
+
+	a, b := f5(8, 9)
+	fmt.Println(a, b)
 }
