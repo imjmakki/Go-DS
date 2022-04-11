@@ -43,5 +43,7 @@ func main() {
 
 	if ok {
 		fmt.Println("The RON balance is:", v)
+	} else {
+		fmt.Println("The RON key doesn't exist in the map!")
 	}
 }
