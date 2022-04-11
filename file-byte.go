@@ -26,4 +26,7 @@ func main() {
 
 	bs := []byte("Go Programming is cool!!")
 	err = ioutil.WriteFile("c.txt", bs, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
