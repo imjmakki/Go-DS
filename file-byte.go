@@ -17,4 +17,9 @@ func main() {
 	defer file.Close()
 
 	byteSlice := []byte("I learn Golang!")
+	byteWritten, err := file.Write(byteSlice)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("Bytes Written: %d\n", byteWritten)
 }
