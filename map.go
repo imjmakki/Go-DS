@@ -39,8 +39,8 @@ func main() {
 	fmt.Println(balances)
 	fmt.Println(balances["RON"])
 
+	balances["RON"] = 0
 	v, ok := balances["RON"]
-
 	if ok {
 		fmt.Println("The RON balance is:", v)
 	} else {
