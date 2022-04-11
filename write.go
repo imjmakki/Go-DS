@@ -14,4 +14,5 @@ func main() {
 	defer file.Close()
 
 	bufferedWriter := bufio.NewWriter(file)
+	bs := []byte{97, 98, 99}
 }
