@@ -22,4 +22,6 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Printf("Bytes Written: %d\n", byteWritten)
+
+	bs := []byte("Go programming is cool!!")
 }
