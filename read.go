@@ -19,4 +19,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Printf("Number of bytes read: %d\n", numberBytesRead)
 }
