@@ -1,6 +1,7 @@
 package main
 
 import (
+	"io"
 	"log"
 	"os"
 )
@@ -13,4 +14,6 @@ func main() {
 	defer file.Close()
 
 	byteSlice := make([]byte, 2)
+
+	numberBytesRead, err := io.ReadFull()
 }
