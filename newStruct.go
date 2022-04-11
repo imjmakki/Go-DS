@@ -15,4 +15,6 @@ func main() {
 	lastBook.author = "leo Tolstoy"
 	lastBook.year = 1878
 	fmt.Printf("%+v\n", lastBook)
+
+	aBook := book{title: "Anna karenina", author: "", year: 0}
 }
