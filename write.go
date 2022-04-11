@@ -15,4 +15,10 @@ func main() {
 
 	bufferedWriter := bufio.NewWriter(file)
 	bs := []byte{97, 98, 99}
+
+	bytesWritten, err := bufferedWriter.Write(bs)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("Byres written to buffer (not file) %d\n", bytesWritten)
 }
