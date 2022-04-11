@@ -34,4 +34,5 @@ func main() {
 	log.Printf("Bytes buffered: %d\n", unFlushedBufferSize)
 
 	bufferedWriter.Flush()
+	bufferedWriter.Reset(bufferedWriter)
 }
