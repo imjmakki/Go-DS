@@ -10,4 +10,5 @@ func main() {
 
 	lastBook := book{title: "Anna karenina"}
 	fmt.Println(lastBook.title)
+	fmt.Printf("%#v\n", lastBook)
 }
