@@ -22,7 +22,7 @@ func f4(a float64) float64 {
 }
 
 func f5(a, b int) (int, int) {
-
+	return a + b, a * b
 }
 
 func main() {
