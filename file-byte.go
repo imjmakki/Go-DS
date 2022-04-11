@@ -15,4 +15,6 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
+
+	byteSlice := []byte("I learn Golang!")
 }
