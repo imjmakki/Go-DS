@@ -12,4 +12,5 @@ func f2(a int, b int) {
 
 func main() {
 	f1()
+	f2(5, 7)
 }
