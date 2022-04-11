@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func g1(a ...int) {
 	fmt.Printf("%T\n", a)
@@ -21,8 +24,8 @@ func SumAndProduct(a ...float64) (float64, float64) {
 	return sum, product
 }
 
-func personInfo(age int, name ...string) string {
-
+func personInfo(age int, names ...string) string {
+	fullName := strings.Join(names, " ")
 }
 
 func main() {
