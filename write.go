@@ -21,4 +21,7 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Printf("Byres written to buffer (not file) %d\n", bytesWritten)
+
+	bytesAvailable := bufferedWriter.Available()
+	log.Printf("Bytes available in buffer: %d\n", bytesAvailable)
 }
