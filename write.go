@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"log"
 	"os"
 )
@@ -11,4 +12,6 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
+
+	bufferedWriter := bufio.NewWriter(file)
 }
