@@ -20,7 +20,7 @@ func main() {
 		if err == nil {
 			log.Println("Scan was completed and it reached EOF")
 		} else {
-
+			log.Fatal(err)
 		}
 	}
 }
