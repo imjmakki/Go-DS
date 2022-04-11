@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -25,6 +26,6 @@ func main() {
 
 	file, err := os.Open("defer.go")
 	if err != nil {
-
+		log.Fatal(err)
 	}
 }
