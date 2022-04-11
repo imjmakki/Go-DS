@@ -16,4 +16,6 @@ func main() {
 
 	a := increment(10)
 	fmt.Printf("%T\n", a)
+	a()
+	fmt.Println(a())
 }
