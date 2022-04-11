@@ -18,4 +18,8 @@ func main() {
 
 	aBook := book{title: "Anna karenina", author: "Leo Tolstoy", year: 1878}
 	fmt.Println(aBook == lastBook)
+
+	myBook := aBook
+	myBook.year = 2020
+	fmt.Println(myBook, aBook)
 }
