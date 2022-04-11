@@ -19,4 +19,7 @@ func main() {
 		title, author string
 		year          int
 	}
+
+	myBook := book{"The Devin Comedy", "Dante Alighieri", 1320}
+	fmt.Println(myBook)
 }
