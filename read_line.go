@@ -17,5 +17,8 @@ func main() {
 	success := scanner.Scan()
 	if success == false {
 		err = scanner.Err()
+		if err == nil {
+
+		}
 	}
 }
