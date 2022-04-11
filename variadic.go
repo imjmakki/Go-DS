@@ -10,4 +10,6 @@ func g1(a ...int) {
 func main() {
 	g1(1, 2, 3, 4)
 	g1()
+
+	nums := []int{1, 2}
 }
