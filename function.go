@@ -10,6 +10,10 @@ func f2(a int, b int) {
 	fmt.Println("Sum:", a+b)
 }
 
+func f3(a, b, c int, d, e float64, s string) {
+
+}
+
 func main() {
 	f1()
 	f2(5, 7)
