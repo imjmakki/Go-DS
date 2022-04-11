@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -29,5 +30,9 @@ func main() {
 	}
 	defer file.Close()
 
-	data, err := ioutil.ReadAll()
+	data, err := ioutil.ReadAll(file)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Data as a string: %s\n", data)
 }
