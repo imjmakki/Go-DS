@@ -15,6 +15,9 @@ func main() {
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
+
+	scanner.Split(bufio.ScanWords)
+
 	success := scanner.Scan()
 	if success == false {
 		err = scanner.Err()
