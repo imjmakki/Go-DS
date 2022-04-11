@@ -20,4 +20,5 @@ func main() {
 
 	g1(nums...)
 	g2(nums...)
+	fmt.Println("Nums:", nums)
 }
