@@ -37,4 +37,5 @@ func main() {
 	balances["USD"] = 500.2
 	balances["GBP"] = 100
 	fmt.Println(balances)
+	fmt.Println(balances["RON"])
 }
