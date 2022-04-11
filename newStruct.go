@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	type book struct {
 		title, author string
@@ -7,4 +9,5 @@ func main() {
 	}
 
 	lastBook := book{title: "Anna karenina"}
+	fmt.Println(lastBook.title)
 }
