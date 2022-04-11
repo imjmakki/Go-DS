@@ -14,4 +14,10 @@ func main() {
 		author string
 		year   int
 	}
+
+	type book1 struct {
+		title  string
+		author string
+		year   int
+	}
 }
