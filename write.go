@@ -26,4 +26,10 @@ func main() {
 	log.Printf("Bytes available in buffer: %d\n", bytesAvailable)
 
 	bytesWritten, err = bufferedWriter.WriteString("\nJust a random string")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	unFlushedBufferSize := bufferedWriter.Buffered()
+	log.Printf("Bytes buffered: %d\n", unFlushedBufferSize)
 }
