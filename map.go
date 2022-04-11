@@ -33,4 +33,8 @@ func main() {
 
 	m := map[int]int{1: 10, 2: 20, 3: 30}
 	_ = m
+
+	balances["USD"] = 500.2
+	balances["GBP"] = 100
+	fmt.Println(balances)
 }
