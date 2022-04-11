@@ -43,4 +43,7 @@ func main() {
 
 	s, p := SumAndProduct(2.0, 5., 10., 5.6, 5.6, 87.3)
 	fmt.Println(s, p)
+
+	info := personInfo(30, "Wolfgang", "Amadeus", "Mozart")
+	fmt.Println(info)
 }
