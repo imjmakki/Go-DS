@@ -38,4 +38,10 @@ func main() {
 	balances["GBP"] = 100
 	fmt.Println(balances)
 	fmt.Println(balances["RON"])
+
+	v, ok := balances["RON"]
+
+	if ok {
+		fmt.Println("The RON balance is:", v)
+	}
 }
