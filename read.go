@@ -11,4 +11,6 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
+
+	byteSlice := make([]byte, 2)
 }
