@@ -53,4 +53,7 @@ func main() {
 			log.Fatal("File does not exist!!")
 		}
 	}
+
+	oldPath := "a.txt"
+	newPath := "aaa.txt"
 }
