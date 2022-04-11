@@ -21,4 +21,9 @@ func main() {
 	}
 	log.Printf("Number of bytes read: %d\n", numberBytesRead)
 	log.Printf("Data read: %s\n", byteSlice)
+
+	file, err = os.Open("read.go")
+	if err != nil {
+		log.Fatal(err)
+	}
 }
