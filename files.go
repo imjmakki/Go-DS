@@ -38,4 +38,6 @@ func main() {
 	file1.Close()
 
 	var fileInfo os.FileInfo
+	fileInfo, err = os.Stat("a.txt")
+	p := fmt.Println
 }
