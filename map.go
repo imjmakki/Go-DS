@@ -51,4 +51,7 @@ func main() {
 	for k, v := range balances {
 		fmt.Printf("Key: %#v, Value: %#v\n", k, v)
 	}
+
+	delete(balances, "USD")
+	fmt.Println(balances)
 }
