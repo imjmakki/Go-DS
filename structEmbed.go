@@ -23,4 +23,5 @@ func main() {
 		},
 	}
 	fmt.Printf("%+v\n", john)
+	fmt.Printf("Employee's email: %s\n", john.contactInfo.email)
 }
