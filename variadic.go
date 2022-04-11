@@ -11,7 +11,7 @@ func g2(a ...int) {
 	a[0] = 50
 }
 
-func SumAndProduct() {
+func SumAndProduct(a ...float64) {
 
 }
 
