@@ -15,5 +15,6 @@ func foobar() {
 }
 
 func main() {
-
+	foo()
+	bar()
 }
