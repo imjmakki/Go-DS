@@ -41,5 +41,11 @@ func main() {
 	fmt.Printf("Diana's Age: %d\n", diana.age)
 
 	type Book struct {
+		string
+		float64
+		bool
 	}
+
+	b1 := Book{"1984 by George Orwell", 10.2, false}
+	fmt.Printf("%#v\n", b1)
 }
