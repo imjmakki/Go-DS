@@ -18,7 +18,7 @@ func main() {
 	if success == false {
 		err = scanner.Err()
 		if err == nil {
-
+			log.Println("")
 		}
 	}
 }
