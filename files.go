@@ -50,7 +50,7 @@ func main() {
 	fileInfo, err = os.Stat("b.txt")
 	if err != nil {
 		if os.IsNotExist(err) {
-			log.Fatal("File file does not exist!!")
+			log.Fatal("File does not exist!!")
 		}
 	}
 }
