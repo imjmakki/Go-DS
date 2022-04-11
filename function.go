@@ -25,6 +25,12 @@ func f5(a, b int) (int, int) {
 	return a + b, a * b
 }
 
+func sum(a, b int) (s int) {
+	fmt.Println(s)
+	s = a + b
+	return
+}
+
 func main() {
 	f1()
 	f2(5, 7)
