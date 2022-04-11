@@ -21,5 +21,7 @@ func main() {
 	for scanner.Scan() {
 		text = scanner.Text()
 		fmt.Println("you entered:", text)
+		if text == "exit" {
+		}
 	}
 }
