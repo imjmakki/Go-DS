@@ -13,4 +13,6 @@ func main() {
 	func(msg string) {
 		fmt.Println(msg)
 	}("I'm an anonymous function!:)")
+
+	a := increment(10)
 }
