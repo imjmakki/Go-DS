@@ -26,6 +26,7 @@ func SumAndProduct(a ...float64) (float64, float64) {
 
 func personInfo(age int, names ...string) string {
 	fullName := strings.Join(names, " ")
+	returnString := fmt.Sprintf()
 }
 
 func main() {
