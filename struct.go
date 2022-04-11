@@ -27,5 +27,5 @@ func main() {
 	_ = bestBook
 
 	aBook := book{title: "Just a Random Book"}
-	fmt.Println(aBook)
+	fmt.Printf("%#v\n", aBook)
 }
