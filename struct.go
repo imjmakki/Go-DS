@@ -55,4 +55,6 @@ func main() {
 		salary int
 		bool
 	}
+
+	e := Employee{"John", 40000, false}
 }
