@@ -13,5 +13,7 @@ func main() {
 
 	if s1 == s2 {
 		fmt.Println("Maps are equal")
+	} else {
+		fmt.Println("Maps are not equal")
 	}
 }
