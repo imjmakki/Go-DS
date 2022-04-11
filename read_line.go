@@ -16,7 +16,7 @@ func main() {
 
 	scanner := bufio.NewScanner(file)
 
-	scanner.Split(bufio.ScanWords)
+	scanner.Split(bufio.ScanRunes)
 
 	success := scanner.Scan()
 	if success == false {
