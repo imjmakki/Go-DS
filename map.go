@@ -12,4 +12,6 @@ func main() {
 	var accounts map[string]float64
 	f("%#v\n", accounts["0x323"])
 
+	var m1 map[[5]int]string
+
 }
