@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func f1() {
 	fmt.Println("This is f1() function.")
@@ -15,7 +18,7 @@ func f3(a, b, c int, d, e float64, s string) {
 }
 
 func f4(a float64) float64 {
-
+	return math.Pow()
 }
 
 func main() {
