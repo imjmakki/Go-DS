@@ -30,4 +30,10 @@ func main() {
 		log.Fatal(err)
 	}
 	file.Close()
+
+	file1, err := os.OpenFile("a.txt", os.O_APPEND, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+	file1.Close()
 }
