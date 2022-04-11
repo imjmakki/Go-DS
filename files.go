@@ -13,5 +13,6 @@ func main() {
 	newFile, err = os.Create("a.txt")
 	if err != nil {
 		fmt.Println(err)
+		os.Exit(1)
 	}
 }
