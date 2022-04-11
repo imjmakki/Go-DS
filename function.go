@@ -40,4 +40,7 @@ func main() {
 
 	a, b := f5(8, 9)
 	fmt.Println(a, b)
+
+	mySum := sum(4, 8)
+	fmt.Println(mySum)
 }
