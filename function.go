@@ -21,6 +21,10 @@ func f4(a float64) float64 {
 	return math.Pow(a, a)
 }
 
+func f5(a, b int) (int, int) {
+
+}
+
 func main() {
 	f1()
 	f2(5, 7)
