@@ -10,4 +10,8 @@ func main() {
 	s2 := fmt.Sprintf("%s", b)
 
 	fmt.Println(s1, s2)
+
+	if s1 == s2 {
+		fmt.Println("Maps are equal")
+	}
 }
