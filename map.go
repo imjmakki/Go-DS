@@ -7,5 +7,6 @@ func main() {
 	var employees map[string]string
 	f("%#v\n", employees)
 	f("No. of pairs : %d\n", len(employees))
+	f("The value for key %q is %q", "Dan", employees["Dan"])
 
 }
