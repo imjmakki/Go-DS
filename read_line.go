@@ -26,6 +26,6 @@ func main() {
 	}
 	fmt.Println("First line found:", scanner.Text())
 	for scanner.Scan() {
-		fmt.Println()
+		fmt.Println(scanner.Text())
 	}
 }
