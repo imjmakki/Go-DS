@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func increment(x int) func() int {
+	return func() int {
+		x++
+		return x
+	}
 }
 
 func main() {
