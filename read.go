@@ -16,4 +16,7 @@ func main() {
 	byteSlice := make([]byte, 2)
 
 	numberBytesRead, err := io.ReadFull(file, byteSlice)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
