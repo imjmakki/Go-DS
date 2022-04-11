@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	a := map[string]string{"X": "Y"}
-	b := map[string]string{"A": "Y"}
+	b := map[string]string{"X": "Y"}
 
 	s1 := fmt.Sprintf("%s", a)
 	s2 := fmt.Sprintf("%s", b)
