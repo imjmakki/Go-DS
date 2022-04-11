@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func foo() {
 	fmt.Println("This is foo()")
@@ -19,4 +22,9 @@ func main() {
 	bar()
 	fmt.Println("Just a string after defering foo() and calling bar()")
 	defer foobar()
+
+	file, err := os.Open("defer.go")
+	if err != nil {
+
+	}
 }
