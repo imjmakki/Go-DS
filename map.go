@@ -24,5 +24,8 @@ func main() {
 	map1 := make(map[int]int)
 	map1[4] = 8
 
-	balances := map[string]float64{}
+	balances := map[string]float64{
+		"USD": 323.11,
+		"EUR": 432.13,
+	}
 }
