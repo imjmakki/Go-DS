@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func increment(x int) func() int {
-
 }
 
 func main() {
