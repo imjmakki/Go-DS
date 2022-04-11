@@ -61,4 +61,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	err = os.Remove("aaa.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
 }
