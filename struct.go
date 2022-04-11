@@ -8,4 +8,7 @@ func main() {
 
 	fmt.Println("Book1:", title1, author1, year1)
 	fmt.Println("Book2:", title2, author2, year2)
+
+	type book struct {
+	}
 }
