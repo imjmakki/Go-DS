@@ -12,4 +12,5 @@ func main() {
 	g1()
 
 	nums := []int{1, 2}
+	nums = append(nums, 3, 4)
 }
