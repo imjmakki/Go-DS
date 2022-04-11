@@ -19,6 +19,7 @@ func main() {
 	fmt.Println("Input bytes:", bytes)
 
 	for scanner.Scan() {
-
+		text = scanner.Text()
+		fmt.Println("you entered:", text)
 	}
 }
