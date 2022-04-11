@@ -36,4 +36,10 @@ func main() {
 	}
 	fmt.Printf("Data as a string: %s\n", data)
 	fmt.Printf("Number of bytes read: %d\n", len(data))
+
+	data, err = ioutil.ReadFile("b.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Data read: %s\n", data)
 }
