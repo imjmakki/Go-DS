@@ -12,8 +12,8 @@ func g2(a ...int) {
 }
 
 func SumAndProduct(a ...float64) (float64, float64) {
-	sum := 0
-	product := 1
+	sum := 0.
+	product := 1.
 	for _, v := range a {
 		sum += v
 		product *= v
@@ -33,4 +33,5 @@ func main() {
 	fmt.Println("Nums:", nums)
 
 	s, p := SumAndProduct(2.0, 5., 10.)
+	fmt.Println(s, p)
 }
