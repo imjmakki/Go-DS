@@ -44,4 +44,5 @@ func main() {
 	p("File name:", fileInfo.Name())
 	p("Size in bytes:", fileInfo.Size())
 	p("Last Modified:", fileInfo.ModTime())
+	p("Is Directory?", fileInfo.IsDir())
 }
