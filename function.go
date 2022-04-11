@@ -14,6 +14,10 @@ func f3(a, b, c int, d, e float64, s string) {
 	fmt.Println(a, b, c, d, e, s)
 }
 
+func f4() {
+
+}
+
 func main() {
 	f1()
 	f2(5, 7)
