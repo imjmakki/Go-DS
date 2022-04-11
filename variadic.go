@@ -19,4 +19,5 @@ func main() {
 	nums = append(nums, 3, 4)
 
 	g1(nums...)
+	g2(nums...)
 }
