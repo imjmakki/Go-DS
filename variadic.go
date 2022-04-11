@@ -7,6 +7,10 @@ func g1(a ...int) {
 	fmt.Printf("%#v\n", a)
 }
 
+func g2(a ...int) {
+
+}
+
 func main() {
 	g1(1, 2, 3, 4)
 	g1()
