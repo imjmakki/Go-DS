@@ -14,4 +14,9 @@ func main() {
 
 	var m1 map[[5]int]string
 	_ = m1
+
+	people := map[string]float64{}
+
+	people["John"] = 21.4
+	people["Mary"] = 10
 }
