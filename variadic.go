@@ -11,6 +11,10 @@ func g2(a ...int) {
 	a[0] = 50
 }
 
+func SumAndProduct() {
+
+}
+
 func main() {
 	g1(1, 2, 3, 4)
 	g1()
