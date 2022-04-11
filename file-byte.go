@@ -1,6 +1,7 @@
 package main
 
 import (
+	"io/ioutil"
 	"log"
 	"os"
 )
@@ -23,5 +24,6 @@ func main() {
 	}
 	log.Printf("Bytes Written: %d\n", byteWritten)
 
-	bs := []byte("Go programming is cool!!")
+	bs := []byte("Go Programming is cool!!")
+	err = ioutil.WriteFile("c.txt", bs, 0644)
 }
