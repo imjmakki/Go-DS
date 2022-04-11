@@ -12,5 +12,6 @@ func main() {
 	var err error
 	newFile, err = os.Create("a.txt")
 	if err != nil {
+		fmt.Println(err)
 	}
 }
