@@ -59,4 +59,5 @@ func main() {
 	e := Employee{"John", 40000, false}
 	fmt.Printf("%#v\n", e)
 	e.bool = true
+	fmt.Printf("%#v\n", e)
 }
