@@ -31,4 +31,6 @@ func main() {
 	g1(nums...)
 	g2(nums...)
 	fmt.Println("Nums:", nums)
+
+	s, p := SumAndProduct(2.0, 5., 10.)
 }
