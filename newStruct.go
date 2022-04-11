@@ -5,4 +5,6 @@ func main() {
 		title, author string
 		year          int
 	}
+
+	lastBook := book{title: "Anna karenina"}
 }
