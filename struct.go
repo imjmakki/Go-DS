@@ -10,5 +10,8 @@ func main() {
 	fmt.Println("Book2:", title2, author2, year2)
 
 	type book struct {
+		title  string
+		author string
+		year   int
 	}
 }
