@@ -25,4 +25,7 @@ func main() {
 
 	bestBook := book{title: "Animal Farm", author: "George Orwell", year: 1945}
 	_ = bestBook
+
+	aBook := book{title: "Just a Random Book"}
+	fmt.Println(aBook)
 }
