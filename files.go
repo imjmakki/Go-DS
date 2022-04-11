@@ -31,7 +31,7 @@ func main() {
 	}
 	file.Close()
 
-	file1, err := os.OpenFile("a.txt", os.O_APPEND, 0644)
+	file1, err := os.OpenFile("a.txt", os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
