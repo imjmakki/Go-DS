@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(lastBook.title)
 	fmt.Printf("%#v\n", lastBook)
 
-	lastBook.author = "leo Tolstoy"
+	lastBook.author = "Leo Tolstoy"
 	lastBook.year = 1878
 	fmt.Printf("%+v\n", lastBook)
 
