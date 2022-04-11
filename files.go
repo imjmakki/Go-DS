@@ -56,4 +56,6 @@ func main() {
 
 	oldPath := "a.txt"
 	newPath := "aaa.txt"
+
+	err = os.Rename(oldPath, newPath)
 }
