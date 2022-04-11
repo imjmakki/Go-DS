@@ -8,7 +8,7 @@ func g1(a ...int) {
 }
 
 func g2(a ...int) {
-
+	a[0] = 50
 }
 
 func main() {
