@@ -6,5 +6,6 @@ func main() {
 	f := fmt.Printf
 	var employees map[string]string
 	f("%#v\n", employees)
+	f("No. of pairs : %d\n", len(employees))
 
 }
