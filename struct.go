@@ -35,5 +35,6 @@ func main() {
 	}{
 		firstName: "Diana",
 		lastName:  "Muller",
+		age:       30,
 	}
 }
