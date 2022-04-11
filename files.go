@@ -58,4 +58,7 @@ func main() {
 	newPath := "aaa.txt"
 
 	err = os.Rename(oldPath, newPath)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
