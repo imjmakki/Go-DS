@@ -20,4 +20,7 @@ func main() {
 	people["Mary"] = 10
 
 	fmt.Println(people)
+
+	map1 := make(map[int]int)
+	map1[4] = 8
 }
