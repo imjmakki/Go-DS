@@ -39,4 +39,7 @@ func main() {
 	}
 	fmt.Printf("%#v\n", diana)
 	fmt.Printf("Diana's Age: %d\n", diana.age)
+
+	type Book struct {
+	}
 }
