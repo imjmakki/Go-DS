@@ -8,6 +8,5 @@ func g1(a ...int) {
 }
 
 func main() {
-
-	g1()
+	g1(1, 2, 3, 4)
 }
