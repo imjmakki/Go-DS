@@ -22,6 +22,10 @@ func main() {
 		text = scanner.Text()
 		fmt.Println("you entered:", text)
 		if text == "exit" {
+			fmt.Println("Exiting the scanning ...")
+			break
 		}
 	}
+
+	fmt.Println("Just a message after for loop.")
 }
