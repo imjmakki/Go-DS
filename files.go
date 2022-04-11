@@ -17,4 +17,17 @@ func main() {
 		os.Exit(1)
 		log.Fatalln(err)
 	}
+
+	err = os.Truncate("a.txt", 0)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+	newFile.Close()
+
+	file, err := os.Open("a.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	file.Close()
 }
