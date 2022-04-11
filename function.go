@@ -11,10 +11,11 @@ func f2(a int, b int) {
 }
 
 func f3(a, b, c int, d, e float64, s string) {
-
+	fmt.Println(a, b, c, d, e, s)
 }
 
 func main() {
 	f1()
 	f2(5, 7)
+	f3(4, 5, 6, 4.4, 7.8, "Golang")
 }
