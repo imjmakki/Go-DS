@@ -17,4 +17,7 @@ func main() {
 
 	people["Anne"] = 18
 	fmt.Printf("%#v --------------- %#v\n", people, friends)
+
+	delete(friends, "Dan")
+	fmt.Println(friends)
 }
