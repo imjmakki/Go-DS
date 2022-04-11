@@ -41,9 +41,14 @@ func main() {
 
 	balances["RON"] = 0
 	v, ok := balances["RON"]
+
 	if ok {
 		fmt.Println("The RON balance is:", v)
 	} else {
 		fmt.Println("The RON key doesn't exist in the map!")
+	}
+
+	for k, v := range balances {
+		fmt.Printf("Key: %#v, Value: %#v\n", k, v)
 	}
 }
