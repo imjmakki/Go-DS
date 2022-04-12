@@ -7,4 +7,5 @@ func main() {
 	p1 := &a
 	pp1 := p1
 	fmt.Printf("Value of p1: %v, address of p1: %v\n", p1, &p1)
+	fmt.Printf("Value of pp1: %v, address of pp1: %v\n", pp1, &pp1)
 }
