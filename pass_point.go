@@ -39,4 +39,5 @@ func main() {
 		price:       100,
 		productName: "Watch",
 	}
+	changeProduct(gift)
 }
