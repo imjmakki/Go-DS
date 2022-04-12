@@ -16,6 +16,9 @@ func changeValuesByPointer(quantity *int, price *float64, name *string, sold *bo
 	*sold = false
 }
 
+type Product struct {
+}
+
 func main() {
 	quantity, price, name, sold := 5, 300.4, "Laptop", true
 	fmt.Println("Before calling changeValue():", quantity, price, name, sold)
