@@ -25,4 +25,8 @@ func main() {
 	*p = 90
 	fmt.Println(x, *p)
 	fmt.Println("*p==x:", *p == x)
+
+	*p = 10
+	*p = *p / 2
+	fmt.Println(x)
 }
