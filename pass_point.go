@@ -32,7 +32,8 @@ func changeProductByPointer(p *Product) {
 }
 
 func changeSlice(s []int) {
-
+	for i := range s {
+	}
 }
 
 func main() {
