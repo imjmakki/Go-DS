@@ -40,4 +40,5 @@ func main() {
 		productName: "Watch",
 	}
 	changeProduct(gift)
+	fmt.Println(gift)
 }
