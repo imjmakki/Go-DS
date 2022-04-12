@@ -11,4 +11,9 @@ func main() {
 
 	fmt.Printf("*p is %v\n", *p1)
 	fmt.Printf("*pp1 is %v\n", *pp1)
+
+	fmt.Printf("**pp1 is %v\n", **pp1)
+
+	**pp1++
+	fmt.Printf("a is %v\n", a)
 }
