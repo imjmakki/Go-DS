@@ -63,5 +63,5 @@ func main() {
 	changeProductByPointer(&gift)
 	fmt.Println("After calling the changeProductByPointer():", gift)
 
-	prices := []int{}
+	prices := []int{1, 2, 3}
 }
