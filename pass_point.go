@@ -38,6 +38,7 @@ func changeSlice(s []int) {
 }
 
 func changeMap(m map[string]int) {
+	m["a"] = 10
 }
 
 func main() {
