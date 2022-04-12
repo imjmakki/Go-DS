@@ -46,4 +46,6 @@ func main() {
 	}
 	changeProduct(gift)
 	fmt.Println(gift)
+
+	fmt.Println("Before calling the changeProductByPointer():", gift)
 }
