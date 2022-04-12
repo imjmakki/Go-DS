@@ -69,4 +69,5 @@ func main() {
 
 	myMap := map[string]int{"a": 1, "b": 2, "c": 3}
 	changeMap(myMap)
+	fmt.Println("myMap after calling changeMap():", myMap)
 }
