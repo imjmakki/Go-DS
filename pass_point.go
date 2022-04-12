@@ -62,4 +62,6 @@ func main() {
 	fmt.Println("Before calling the changeProductByPointer():", gift)
 	changeProductByPointer(&gift)
 	fmt.Println("After calling the changeProductByPointer():", gift)
+
+	prices := []int{}
 }
