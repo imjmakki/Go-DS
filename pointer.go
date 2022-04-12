@@ -10,4 +10,14 @@ func main() {
 	ptr := &x
 	fmt.Printf("ptr is of type %T with a value of %v\n and adress %o\n", ptr, ptr, &ptr)
 	fmt.Printf("address of x is %p\n", &x)
+
+	var ptr1 *float64
+	_ = ptr1
+
+	p := new(int)
+
+	x = 100
+	p = &x
+
+	fmt.Printf("ps is of type %T with a value of %v\n", p, p)
 }
