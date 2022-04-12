@@ -9,6 +9,9 @@ func changeValues(quantity int, price float64, name string, sold bool) {
 	sold = false
 }
 
+func changeValuesByPointer() {
+}
+
 func main() {
 	quantity, price, name, sold := 5, 300.4, "Laptop", true
 	fmt.Println("Before calling changeValue():", quantity, price, name, sold)
