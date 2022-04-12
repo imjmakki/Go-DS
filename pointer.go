@@ -21,4 +21,7 @@ func main() {
 
 	fmt.Printf("ps is of type %T with a value of %v\n", p, p)
 	fmt.Printf("address of x is %p\n", &x)
+
+	*p = 90
+	fmt.Println(x, *p)
 }
