@@ -25,6 +25,8 @@ func main() {
 
 	z := 5
 	p3 := &z
-
 	fmt.Println(p2 == p3)
+
+	p4 := &y
+	fmt.Println(p2 == p4)
 }
