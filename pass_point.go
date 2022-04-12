@@ -66,4 +66,6 @@ func main() {
 	prices := []int{1, 2, 3}
 	changeSlice(prices)
 	fmt.Println("prices slice after calling changeSlice():", prices)
+
+	myMap := map[string]int{"a": 1, "b": 2, "c": 3}
 }
