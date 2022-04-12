@@ -31,6 +31,10 @@ func changeProductByPointer(p *Product) {
 	(*p).productName = "Bicycle"
 }
 
+func changeSlice(s []int) {
+
+}
+
 func main() {
 	quantity, price, name, sold := 5, 300.4, "Laptop", true
 	fmt.Println("Before calling changeValue():", quantity, price, name, sold)
