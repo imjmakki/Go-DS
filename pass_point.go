@@ -9,7 +9,7 @@ func changeValues(quantity int, price float64, name string, sold bool) {
 	sold = false
 }
 
-func changeValuesByPointer() {
+func changeValuesByPointer(quantity *int, price *float64, name *string, sold *bool) {
 }
 
 func main() {
