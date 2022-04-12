@@ -20,6 +20,8 @@ type Product struct {
 }
 
 func changeProduct(p Product) {
+	p.price = 300
+	p.productName = "Bicycle"
 }
 
 func main() {
