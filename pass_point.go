@@ -37,8 +37,7 @@ func changeSlice(s []int) {
 	}
 }
 
-func changeMap() {
-
+func changeMap(m map[string]int) {
 }
 
 func main() {
