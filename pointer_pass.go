@@ -9,6 +9,10 @@ func change(a *int) *float64 {
 	return &b
 }
 
+func changeVar(a int) {
+	a = 66
+}
+
 func main() {
 	x := 8
 	k := &x
