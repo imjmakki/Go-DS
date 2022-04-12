@@ -26,9 +26,9 @@ func changeProduct(p Product) {
 	p.productName = "Bicycle"
 }
 
-func changeProductByPointer(p Product) {
-	p.price = 300
-	p.productName = "Bicycle"
+func changeProductByPointer(p *Product) {
+	(*p).price = 300
+	(*p).productName = "Bicycle"
 }
 
 func main() {
