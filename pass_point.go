@@ -19,7 +19,7 @@ func changeValuesByPointer(quantity *int, price *float64, name *string, sold *bo
 type Product struct {
 }
 
-func changeProduct() {
+func changeProduct(p Product) {
 
 }
 
