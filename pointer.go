@@ -20,4 +20,5 @@ func main() {
 	p = &x
 
 	fmt.Printf("ps is of type %T with a value of %v\n", p, p)
+	fmt.Printf("address of x is %p\n", &x)
 }
