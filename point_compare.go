@@ -16,4 +16,7 @@ func main() {
 
 	**pp1++
 	fmt.Printf("a is %v\n", a)
+
+	var p2 *int
+	fmt.Printf("%#v\n", p2)
 }
