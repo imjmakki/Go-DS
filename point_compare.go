@@ -19,4 +19,12 @@ func main() {
 
 	var p2 *int
 	fmt.Printf("%#v\n", p2)
+
+	y := 5
+	p2 = &y
+
+	z := 5
+	p3 := &z
+
+	fmt.Println(p2 == p3)
 }
