@@ -17,7 +17,7 @@ func changeValuesByPointer(quantity *int, price *float64, name *string, sold *bo
 }
 
 type Product struct {
-	price float64
+	price       float64
 	productName string
 }
 
@@ -36,7 +36,7 @@ func main() {
 	fmt.Println("After calling changeValueByPointer():", quantity, price, name, sold)
 
 	gift := Product{
-		price: 100,
-		productName: "Watch "
+		price:       100,
+		productName: "Watch",
 	}
 }
