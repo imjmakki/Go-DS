@@ -20,7 +20,6 @@ type Product struct {
 }
 
 func changeProduct(p Product) {
-
 }
 
 func main() {
