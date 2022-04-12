@@ -21,5 +21,7 @@ func main() {
 	fmt.Println("Before calling changeValue():", quantity, price, name, sold)
 	changeValues(quantity, price, name, sold)
 	fmt.Println("After calling changeValue():", quantity, price, name, sold)
+
 	changeValuesByPointer(&quantity, &price, &name, &sold)
+	fmt.Println("After calling changeValueByPointer():", quantity, price, name, sold)
 }
