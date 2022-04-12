@@ -65,4 +65,5 @@ func main() {
 
 	prices := []int{1, 2, 3}
 	changeSlice(prices)
+	fmt.Println("prices slice after calling changeSlice():", prices)
 }
