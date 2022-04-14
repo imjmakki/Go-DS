@@ -45,4 +45,6 @@ func main() {
 
 	(*yourCar).changeCar2("Bugatti", 2000000)
 	fmt.Println(*yourCar)
+
+	fmt.Println(myCar)
 }
