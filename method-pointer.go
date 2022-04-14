@@ -30,6 +30,9 @@ func main() {
 	myCar.changeCar1("Opel", 15000)
 	fmt.Println(myCar)
 
-	(&myCar).changeCar2("Seat", 10000)
+	myCar.changeCar2("Seat", 10000)
+	fmt.Println(myCar)
+
+	(&myCar).changeCar2("Ferrari", 250000)
 	fmt.Println(myCar)
 }
