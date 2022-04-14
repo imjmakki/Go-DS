@@ -23,4 +23,5 @@ func main() {
 	fmt.Println(myCar)
 
 	myCar.changeCar1("Opel", 15000)
+	fmt.Println(myCar)
 }
