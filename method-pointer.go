@@ -22,6 +22,12 @@ func (c *car) changeCar2(newBrand string, newPrice int) {
 	(*c).price = newPrice
 }
 
+type distance *int
+
+func (d *distance) m1() {
+
+}
+
 func main() {
 	myCar := car{brand: "Audi", price: 80000}
 	changeCar(myCar, "Renault", 25000)
