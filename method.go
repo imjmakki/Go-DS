@@ -24,4 +24,6 @@ func main() {
 	friends := names{"Dan", "Mary"}
 	friends.print()
 	names.print(friends)
+
+	var n int64 = 93422433
 }
