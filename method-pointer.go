@@ -17,7 +17,7 @@ func (c car) changeCar1(newBrand string, newPrice int) {
 	c.price = newPrice
 }
 
-func (c *car) changeCar2() {
+func (c *car) changeCar2(newBrand string, newPrice int) {
 
 }
 
