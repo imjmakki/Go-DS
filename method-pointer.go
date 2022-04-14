@@ -16,4 +16,5 @@ func (c car) changeCar1(newBrand string, newPrice int) {
 }
 
 func main() {
+	myCar := car{brand: "Audi", price: 40000}
 }
