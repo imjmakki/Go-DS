@@ -23,4 +23,5 @@ func main() {
 
 	friends := names{"Dan", "Mary"}
 	friends.print()
+	names.print(friends)
 }
