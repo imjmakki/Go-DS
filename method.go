@@ -7,7 +7,7 @@ import (
 
 type names []string
 
-func (n names) pring() {
+func (n names) print() {
 	for i, name := range n {
 		fmt.Println(i, name)
 	}
@@ -22,4 +22,5 @@ func main() {
 	fmt.Printf("Seconds in a day: %v\n", seconds)
 
 	friends := names{"Dan", "Mary"}
+	friends.print()
 }
