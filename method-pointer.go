@@ -4,5 +4,4 @@ type car struct {
 }
 
 func main() {
-
 }
