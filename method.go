@@ -27,4 +27,5 @@ func main() {
 
 	var n int64 = 93422433
 	fmt.Println(n)
+	fmt.Println(time.Duration(n))
 }
