@@ -18,8 +18,8 @@ func (c car) changeCar1(newBrand string, newPrice int) {
 }
 
 func main() {
-	myCar := car{brand: "Audi", price: 40000}
-	changeCar(myCar, "Renault", 20000)
+	myCar := car{brand: "Audi", price: 80000}
+	changeCar(myCar, "Renault", 25000)
 	fmt.Println(myCar)
 
 	myCar.changeCar1("Opel", 15000)
