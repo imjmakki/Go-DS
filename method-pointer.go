@@ -39,4 +39,7 @@ func main() {
 	var yourCar *car
 	yourCar = &myCar
 	fmt.Println(*yourCar)
+
+	yourCar.changeCar2("VW", 22000)
+	fmt.Println(*yourCar)
 }
