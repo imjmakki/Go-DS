@@ -11,7 +11,6 @@ func changeCar(c car, newBrand string, newPrice int) {
 }
 
 func (c car) changeCar1(newBrand string, newPrice int) {
-
 }
 
 func main() {
