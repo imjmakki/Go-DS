@@ -22,5 +22,5 @@ func main() {
 	changeCar(myCar, "Renault", 20000)
 	fmt.Println(myCar)
 
-	myCar.changeCar1("Opel", 21000)
+	myCar.changeCar1("Opel", 15000)
 }
