@@ -26,4 +26,5 @@ func main() {
 	names.print(friends)
 
 	var n int64 = 93422433
+	fmt.Println(n)
 }
