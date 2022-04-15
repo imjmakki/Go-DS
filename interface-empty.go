@@ -5,6 +5,9 @@ import "fmt"
 type emptyInterface interface {
 }
 
+type person struct {
+}
+
 func main() {
 	var empty interface{}
 
