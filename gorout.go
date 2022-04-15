@@ -28,4 +28,7 @@ func main() {
 	fmt.Println("OS:", runtime.GOOS)
 	fmt.Println("Arch:", runtime.GOARCH)
 	fmt.Println("GOMAXPROCS:", runtime.GOMAXPROCS(0))
+
+	go l1()
+	fmt.Println("No. of Goroutines after go l1():", runtime.NumGoroutine())
 }
