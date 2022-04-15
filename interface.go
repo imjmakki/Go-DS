@@ -42,6 +42,10 @@ func printRectangle(r rectangle) {
 	fmt.Println("Perimeter:", r.perimeter())
 }
 
+func print(s shape) {
+
+}
+
 func (r rectangle) perimeter() float64 {
 	return 2 * (r.width + r.height)
 }
