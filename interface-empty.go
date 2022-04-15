@@ -23,4 +23,5 @@ func main() {
 	fmt.Println(len(empty.([]int)))
 
 	you := person{}
+	you.info = "Your Name"
 }
