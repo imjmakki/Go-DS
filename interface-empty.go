@@ -14,6 +14,6 @@ func main() {
 	empty = "Golang"
 	fmt.Println(empty)
 
-	empty = []int{1, 2, 3}
+	empty = []int{5, 5, 6}
 	fmt.Println(empty)
 }
