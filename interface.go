@@ -46,5 +46,6 @@ func main() {
 	r1 := rectangle{width: 3., height: 3.1}
 
 	printCircle(c1)
+	fmt.Println()
 	printRectangle(r1)
 }
