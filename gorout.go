@@ -13,6 +13,14 @@ func l1() {
 	fmt.Println("l1 execution finished")
 }
 
+func l2() {
+	fmt.Println("l2 (goroutine) execution started")
+	for i := 5; i < 16; i++ {
+		fmt.Println("l2, i=", i)
+	}
+	fmt.Println("l2 execution finished")
+}
+
 func main() {
 	fmt.Println("main execution started")
 	fmt.Println("No. of CPU's:", runtime.NumCPU())
