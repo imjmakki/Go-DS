@@ -6,6 +6,8 @@ import (
 )
 
 type shape interface {
+	area() float64
+	perimeter() float64
 }
 
 type rectangle struct {
