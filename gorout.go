@@ -7,6 +7,9 @@ import (
 
 func l1() {
 	fmt.Println("l1 (goroutine) execution started")
+	for i = 0; i < 3; i++ {
+
+	}
 	fmt.Println("l1 execution finished")
 }
 
