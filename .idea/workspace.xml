@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment="Data Structures with Golang">
-      <change beforePath="$PROJECT_DIR$/gorout.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorout.go" afterDir="false" />
-    </list>
+    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment=" goroutine" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Data Structures with Golang" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Structures with Golang" />
+    <MESSAGE value=" goroutine" />
+    <option name="LAST_COMMIT_MESSAGE" value=" goroutine" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

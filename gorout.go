@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"runtime"
+	"time"
 )
 
 func l1() {
@@ -33,5 +34,6 @@ func main() {
 	fmt.Println("No. of Goroutines after go l1():", runtime.NumGoroutine())
 
 	l2()
+	time.Sleep(time.Second * 2)
 	fmt.Println("main execution stopped")
 }
