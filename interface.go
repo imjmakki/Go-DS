@@ -18,12 +18,12 @@ func (c circle) perimeter() float64 {
 	return 2 * math.Pi * c.radius
 }
 
-func (c rectangle) area() float64 {
-	return math.Pi * math.Pow(c.radius, 2)
+func (r rectangle) area() float64 {
+	return r.height * r.width
 }
 
-func (c rectangle) perimeter() float64 {
-	return 2 * math.Pi * c.radius
+func (r rectangle) perimeter() float64 {
+	return 2 * (r.width + r.height)
 }
 
 func main() {
