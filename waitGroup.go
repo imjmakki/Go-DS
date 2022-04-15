@@ -7,10 +7,11 @@ import (
 	"time"
 )
 
-func p1() {
+func p1(wg *sync.WaitGroup) {
 	fmt.Println("p1 (goroutine) execution started")
 	for i := 0; i < 3; i++ {
 		fmt.Println("p1, i=", i)
+		time.Sleep(time.Second)
 	}
 	fmt.Println("p1 execution finished")
 }
