@@ -42,5 +42,9 @@ func (r rectangle) perimeter() float64 {
 }
 
 func main() {
+	c1 := circle{radius: 5.}
+	r1 := rectangle{width: 3., height: 3.1}
 
+	printCircle(c1)
+	printRectangle(r1)
 }
