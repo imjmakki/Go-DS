@@ -14,6 +14,7 @@ func p1(wg *sync.WaitGroup) {
 		time.Sleep(time.Second)
 	}
 	fmt.Println("p1 execution finished")
+	wg.Done()
 }
 
 func p2() {
