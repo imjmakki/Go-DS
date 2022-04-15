@@ -11,5 +11,5 @@ func main() {
 	fmt.Println("No. of Goroutines:", runtime.NumGoroutine())
 	fmt.Println("OS:", runtime.GOOS)
 	fmt.Println("Arch:", runtime.GOARCH)
-	fmt.Println("GOMAXPROCS:", runtime.GOMAXPROCS())
+	fmt.Println("GOMAXPROCS:", runtime.GOMAXPROCS(0))
 }
