@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+type shape interface {
+}
+
 type rectangle struct {
 	width, height float64
 }
