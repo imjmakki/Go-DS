@@ -24,4 +24,5 @@ func main() {
 
 	you := person{}
 	you.info = "Your Name"
+	fmt.Println(you.info)
 }
