@@ -10,4 +10,7 @@ func main() {
 
 	empty = 5
 	fmt.Println(empty)
+
+	empty = "Go"
+	fmt.Println(empty)
 }
