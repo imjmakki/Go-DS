@@ -11,6 +11,6 @@ func main() {
 	empty = 5
 	fmt.Println(empty)
 
-	empty = "Go"
+	empty = "Golang"
 	fmt.Println(empty)
 }
