@@ -13,4 +13,7 @@ func main() {
 
 	empty = "Golang"
 	fmt.Println(empty)
+
+	empty = []int{1, 2, 3}
+	fmt.Println(empty)
 }
