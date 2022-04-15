@@ -7,7 +7,6 @@ import (
 
 func l1() {
 	fmt.Println("l1 (goroutine) execution started")
-
 	fmt.Println("l1 execution finished")
 }
 
