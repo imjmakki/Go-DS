@@ -16,4 +16,5 @@ func main() {
 
 	empty = []int{5, 5, 6}
 	fmt.Println(empty)
+	fmt.Println(len(empty.([]int)))
 }
