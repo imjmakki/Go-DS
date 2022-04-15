@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"runtime"
+	"sync"
 	"time"
 )
 
@@ -23,12 +24,8 @@ func p2() {
 }
 
 func main() {
-	fmt.Println("main execution started")
-	fmt.Println("No. of CPU's:", runtime.NumCPU())
-	fmt.Println("No. of Goroutines:", runtime.NumGoroutine())
-	fmt.Println("OS:", runtime.GOOS)
-	fmt.Println("Arch:", runtime.GOARCH)
-	fmt.Println("GOMAXPROCS:", runtime.GOMAXPROCS(0))
+	var wg sync.WaitGroup
+	wg.Add(1)
 
 	go p1()
 	fmt.Println("No. of Goroutines after go p1():", runtime.NumGoroutine())
