@@ -22,6 +22,10 @@ func (r rectangle) area() float64 {
 	return r.height * r.width
 }
 
+func printCircle(c circle) {
+
+}
+
 func (r rectangle) perimeter() float64 {
 	return 2 * (r.width + r.height)
 }
