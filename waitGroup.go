@@ -30,7 +30,7 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(1)
 
-	go p1()
+	go p1(&wg)
 	fmt.Println("No. of Goroutines after go p1():", runtime.NumGoroutine())
 
 	p2()
