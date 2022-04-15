@@ -1,6 +1,9 @@
 package main
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 type rectangle struct {
 	width, height float64
@@ -23,7 +26,9 @@ func (r rectangle) area() float64 {
 }
 
 func printCircle(c circle) {
-
+	fmt.Println("Shape:", c)
+	fmt.Println("Area:", c.area())
+	fmt.Println("Perimeter:", c.perimeter())
 }
 
 func (r rectangle) perimeter() float64 {
