@@ -6,6 +6,7 @@ type emptyInterface interface {
 }
 
 type person struct {
+	info interface{}
 }
 
 func main() {
