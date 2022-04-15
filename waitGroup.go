@@ -34,6 +34,7 @@ func main() {
 	fmt.Println("No. of Goroutines after go p1():", runtime.NumGoroutine())
 
 	p2()
-	time.Sleep(time.Second * 2)
+	//time.Sleep(time.Second * 2)
+	wg.Wait()
 	fmt.Println("main execution stopped")
 }
