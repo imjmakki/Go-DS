@@ -44,8 +44,8 @@ func printRectangle(r rectangle) {
 
 func print(s shape) {
 	fmt.Printf("Shape: %#v\n", s)
-	fmt.Printf("Area: %#v\n", s.area())
-	fmt.Printf("Perimeter: %#v\n", s.perimeter())
+	fmt.Printf("Area: %v\n", s.area())
+	fmt.Printf("Perimeter: %v\n", s.perimeter())
 }
 
 func (r rectangle) perimeter() float64 {
