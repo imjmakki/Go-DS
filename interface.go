@@ -58,9 +58,12 @@ func main() {
 
 	printCircle(c1)
 	fmt.Println()
+
 	printRectangle(r1)
 	fmt.Println()
+
 	print(c1)
 	fmt.Println()
+
 	print(r1)
 }
