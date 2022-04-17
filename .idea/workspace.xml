@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment=" goroutine">
+    <list default="true" id="906913be-8ab1-41e3-89c6-67df88d1d297" name="Changes" comment="go bootcamp">
       <change beforePath="$PROJECT_DIR$/url-checker.go" beforeDir="false" afterPath="$PROJECT_DIR$/url-checker.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Data Structures with Golang" />
     <MESSAGE value=" goroutine" />
-    <option name="LAST_COMMIT_MESSAGE" value=" goroutine" />
+    <MESSAGE value="go bootcamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="go bootcamp" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
