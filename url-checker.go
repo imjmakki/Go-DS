@@ -17,7 +17,8 @@ func checkAndSaveBody(url string) {
 		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
 		if resp.StatusCode == 200 {
 			bodyBytes, err := ioutil.ReadAll(resp.Body)
-			file := strings.Split()
+			file := strings.Split(url, "//")[1]
+			file += ".txt"
 		}
 	}
 }
