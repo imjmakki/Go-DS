@@ -20,5 +20,7 @@ func main() {
 
 	for i := 1; i <= 20; i++ {
 		go factorial(i, ch)
+		f := <-ch
+		fmt.Println(f)
 	}
 }
