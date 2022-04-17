@@ -13,6 +13,7 @@ func checkAndSaveBody1(url string, c chan string) {
 	if err != nil {
 		//fmt.Println(err)
 		s := fmt.Sprintf("%s is Down!\n", url)
+		s += fmt.Sprintf("Error: %v\n", err)
 	} else {
 		defer resp.Body.Close()
 		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
