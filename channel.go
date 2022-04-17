@@ -15,4 +15,6 @@ func main() {
 	num := <-c
 	fmt.Println(<-c)
 	_ = num
+
+	close(c)
 }
