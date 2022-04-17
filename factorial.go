@@ -19,6 +19,6 @@ func main() {
 	fmt.Println(f)
 
 	for i := 1; i <= 20; i++ {
-
+		go factorial(i, ch)
 	}
 }
