@@ -9,5 +9,5 @@ func factorial(n int, c chan int) {
 }
 
 func main() {
-
+	ch := make(chan int)
 }
