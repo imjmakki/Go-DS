@@ -11,4 +11,6 @@ func main() {
 
 	c := make(chan int)
 	c <- 10
+
+	num := <-c
 }
