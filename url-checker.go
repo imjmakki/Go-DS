@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 )
 
@@ -14,7 +15,7 @@ func checkAndSaveBody(url string) {
 		defer resp.Body.Close()
 		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
 		if resp.StatusCode == 200 {
-			bodyBytes
+			bodyBytes, err := ioutil.ReadAll(resp.Body)
 		}
 	}
 }
