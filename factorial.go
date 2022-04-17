@@ -1,6 +1,6 @@
 package main
 
-func factorial() {
+func factorial(n int, c chan int) {
 
 }
 
