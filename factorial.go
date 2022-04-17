@@ -11,4 +11,6 @@ func factorial(n int, c chan int) {
 func main() {
 	ch := make(chan int)
 	defer close(ch)
+
+	go factorial(5, ch)
 }
