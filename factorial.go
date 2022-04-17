@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func factorial(n int, c chan int) {
 	f := 1
@@ -24,6 +27,8 @@ func main() {
 		fmt.Println(f)
 	}
 
+	fmt.Println(strings.Repeat("#", 20))
+
 	for i := 5; i <= 15; i++ {
 		go func(n int, c chan int) {
 			f := 1
@@ -32,5 +37,7 @@ func main() {
 			}
 			c <- f
 		}(i, ch)
+
+		fmt.Errorf("Factorial of %d is %d\n", i, <-ch)
 	}
 }
