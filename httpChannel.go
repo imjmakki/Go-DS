@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"strings"
 )
@@ -14,22 +13,25 @@ func checkAndSaveBody1(url string, c chan string) {
 		//fmt.Println(err)
 		s := fmt.Sprintf("%s is Down!\n", url)
 		s += fmt.Sprintf("Error: %v\n", err)
+		c <- s
 	} else {
 		defer resp.Body.Close()
-		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
+		s := fmt.Sprintf("%s -> Status Code: %d \n", url, resp.StatusCode)
 		if resp.StatusCode == 200 {
 			bodyBytes, err := ioutil.ReadAll(resp.Body)
 			file := strings.Split(url, "//")[1]
 			file += ".txt"
-			fmt.Printf("Writing response body to %s\n", file)
+			s += fmt.Sprintf("Writing response body to %s\n", file)
 
 			err = ioutil.WriteFile(file, bodyBytes, 0664)
 			if err != nil {
-				log.Fatal(err)
+				//log.Fatal(err)
+				s += "Error writing file\n"
+				c <- s
 			}
+			s += fmt.Sprintf("%s is Up\n", url)
 		}
 	}
-	wg.Done()
 }
 
 func main() {
