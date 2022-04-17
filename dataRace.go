@@ -15,6 +15,8 @@ func main() {
 	for i := 0; i < gr; i++ {
 		go func() {
 			time.Sleep(time.Second / 2)
-		}
+			n++
+			wg.Done()
+		}()
 	}
 }
