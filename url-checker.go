@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"strings"
 )
@@ -19,8 +20,12 @@ func checkAndSaveBody(url string) {
 			bodyBytes, err := ioutil.ReadAll(resp.Body)
 			file := strings.Split(url, "//")[1]
 			file += ".txt"
-
 			fmt.Printf("Writing response body to %s\n", file)
+
+			err = ioutil.WriteFile(file, bodyBytes, 0664)
+			if err != nil {
+				log.Fatal(err)
+			}
 		}
 	}
 }
