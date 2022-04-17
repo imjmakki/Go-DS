@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"runtime"
 	"strings"
 	"sync"
 )
@@ -41,6 +40,4 @@ func main() {
 		go checkAndSaveBody1(url, &wg) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
 	}
-	fmt.Println("No. of Goroutines:", runtime.NumGoroutine())
-	wg.Wait()
 }
