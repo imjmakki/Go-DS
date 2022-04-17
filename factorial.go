@@ -5,6 +5,7 @@ func factorial(n int, c chan int) {
 	for i := 2; i <= n; i++ {
 		f *= i
 	}
+	c <- f
 }
 
 func main() {
