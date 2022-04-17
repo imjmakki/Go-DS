@@ -9,7 +9,7 @@ import (
 	"sync"
 )
 
-func checkAndSaveBody(url string) {
+func checkAndSaveBody(url string, wg *sync.WaitGroup) {
 	resp, err := http.Get(url)
 	if err != nil {
 		fmt.Println(err)
@@ -36,7 +36,7 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(len(url))
 	for _, url := range urls {
-		go checkAndSaveBody(url) // working with goroutines
+		go checkAndSaveBody(url, &wg) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
 	}
 }
