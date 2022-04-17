@@ -18,5 +18,10 @@ func main() {
 			n++
 			wg.Done()
 		}()
+		go func() {
+			time.Sleep(time.Second / 2)
+			n--
+			wg.Done()
+		}()
 	}
 }
