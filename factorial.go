@@ -17,4 +17,8 @@ func main() {
 	go factorial(5, ch)
 	f := <-ch
 	fmt.Println(f)
+
+	for i := 1; i <= 20; i++ {
+
+	}
 }
