@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"strings"
+	"sync"
 )
 
 func checkAndSaveBody(url string) {
@@ -32,8 +33,10 @@ func checkAndSaveBody(url string) {
 
 func main() {
 	urls := []string{"https://golang.org", "https://www.google.com", "https://www.medium.com", "https://www.facebook.com", "https://www.instagram.com", "https://www.exapmle.com"}
+	var wg sync.WaitGroup
+	wg.Add(len(url))
 	for _, url := range urls {
-		checkAndSaveBody(url)
+		go checkAndSaveBody(url) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
 	}
 }
