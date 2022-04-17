@@ -12,6 +12,7 @@ func checkAndSaveBody(url string) {
 		fmt.Printf("%s is Down!\n", url)
 	} else {
 		defer resp.Body.Close()
+		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
 	}
 }
 
