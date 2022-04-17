@@ -26,5 +26,5 @@ func main() {
 		}()
 	}
 	wg.Wait()
-	fmt.Println(n)
+	fmt.Println("Final value of n:", n)
 }
