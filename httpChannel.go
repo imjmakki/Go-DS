@@ -6,14 +6,13 @@ import (
 	"log"
 	"net/http"
 	"strings"
-	"sync"
 )
 
-func checkAndSaveBody1(url string, wg *sync.WaitGroup) {
+func checkAndSaveBody1(url string, c chan string) {
 	resp, err := http.Get(url)
 	if err != nil {
-		fmt.Println(err)
-		fmt.Printf("%s is Down!\n", url)
+		//fmt.Println(err)
+		s := fmt.Sprintf("%s is Down!\n", url)
 	} else {
 		defer resp.Body.Close()
 		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
@@ -34,8 +33,7 @@ func checkAndSaveBody1(url string, wg *sync.WaitGroup) {
 
 func main() {
 	urls := []string{"https://golang.org", "https://www.google.com", "https://www.medium.com", "https://www.facebook.com", "https://www.instagram.com", "https://www.exapmle.com"}
-	var wg sync.WaitGroup
-	wg.Add(len(urls))
+	c := make(chan string)
 	for _, url := range urls {
 		go checkAndSaveBody1(url, &wg) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
