@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func factorial(n int, c chan int) {
 	f := 1
 	for i := 2; i <= n; i++ {
@@ -13,4 +15,6 @@ func main() {
 	defer close(ch)
 
 	go factorial(5, ch)
+	f := <-ch
+	fmt.Println(f)
 }
