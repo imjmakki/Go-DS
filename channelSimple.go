@@ -15,4 +15,5 @@ func main() {
 	go x1(10, c)
 	n := <-c
 	fmt.Println("Value received:", n)
+	fmt.Println("Exiting main ...")
 }
