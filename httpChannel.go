@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"runtime"
 	"strings"
 )
 
@@ -30,6 +31,7 @@ func checkAndSaveBody1(url string, c chan string) {
 				c <- s
 			}
 			s += fmt.Sprintf("%s is Up\n", url)
+			c <- s
 		}
 	}
 }
@@ -38,7 +40,8 @@ func main() {
 	urls := []string{"https://golang.org", "https://www.google.com", "https://www.medium.com", "https://www.facebook.com", "https://www.instagram.com", "https://www.exapmle.com"}
 	c := make(chan string)
 	for _, url := range urls {
-		go checkAndSaveBody1(url, &wg) // working with goroutines
+		go checkAndSaveBody1(url, c) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
 	}
+	fmt.Println("No. of goroutines:", runtime.NumGoroutine())
 }
