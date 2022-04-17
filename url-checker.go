@@ -19,6 +19,8 @@ func checkAndSaveBody(url string) {
 			bodyBytes, err := ioutil.ReadAll(resp.Body)
 			file := strings.Split(url, "//")[1]
 			file += ".txt"
+
+			fmt.Printf("Writing response body to %s\n", file)
 		}
 	}
 }
