@@ -11,7 +11,7 @@ func checkAndSaveBody(url string) {
 		fmt.Println(err)
 		fmt.Printf("%s is Down!\n", url)
 	} else {
-
+		defer resp.Body.Close()
 	}
 }
 
