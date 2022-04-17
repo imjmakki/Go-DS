@@ -38,6 +38,6 @@ func main() {
 			c <- f
 		}(i, ch)
 
-		fmt.Errorf("Factorial of %d is %d\n", i, <-ch)
+		fmt.Printf("Factorial of %d is %d\n", i, <-ch)
 	}
 }
