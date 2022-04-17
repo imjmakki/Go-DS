@@ -8,4 +8,7 @@ func main() {
 
 	ch = make(chan int)
 	fmt.Println(ch)
+
+	c := make(chan int)
+	c <- 10
 }
