@@ -31,5 +31,9 @@ func checkAndSaveBody(url string) {
 }
 
 func main() {
-
+	urls := []string{"https://golang.org", "https://www.google.com", "https://www.medium.com"}
+	for _, url := range urls {
+		checkAndSaveBody(url)
+		fmt.Println(strings.Repeat("#", 20))
+	}
 }
