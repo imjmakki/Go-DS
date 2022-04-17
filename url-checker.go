@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"strings"
 )
 
 func checkAndSaveBody(url string) {
@@ -16,6 +17,7 @@ func checkAndSaveBody(url string) {
 		fmt.Printf("%s -> Status Code: %d \n", url, resp.StatusCode)
 		if resp.StatusCode == 200 {
 			bodyBytes, err := ioutil.ReadAll(resp.Body)
+			file := strings.Split()
 		}
 	}
 }
