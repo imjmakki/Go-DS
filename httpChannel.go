@@ -44,4 +44,7 @@ func main() {
 		fmt.Println(strings.Repeat("#", 20))
 	}
 	fmt.Println("No. of goroutines:", runtime.NumGoroutine())
+	for i := 0; i < len(urls); i++ {
+		fmt.Println()
+	}
 }
