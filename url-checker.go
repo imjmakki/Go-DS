@@ -35,9 +35,10 @@ func checkAndSaveBody(url string, wg *sync.WaitGroup) {
 func main() {
 	urls := []string{"https://golang.org", "https://www.google.com", "https://www.medium.com", "https://www.facebook.com", "https://www.instagram.com", "https://www.exapmle.com"}
 	var wg sync.WaitGroup
-	wg.Add(len(url))
+	wg.Add(len(urls))
 	for _, url := range urls {
 		go checkAndSaveBody(url, &wg) // working with goroutines
 		fmt.Println(strings.Repeat("#", 20))
 	}
+	wg.Wait()
 }
