@@ -25,8 +25,8 @@ func main() {
 		go func() {
 			time.Sleep(time.Second / 2)
 			m.Lock()
+			defer m.Unlock()
 			n--
-			m.Unlock()
 			wg.Done()
 		}()
 	}
