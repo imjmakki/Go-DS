@@ -10,6 +10,8 @@ func checkAndSaveBody(url string) {
 	if err != nil {
 		fmt.Println(err)
 		fmt.Printf("%s is Down!\n", url)
+	} else {
+
 	}
 }
 
