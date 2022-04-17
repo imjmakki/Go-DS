@@ -13,4 +13,6 @@ func main() {
 	c <- 10
 
 	num := <-c
+	fmt.Println(<-c)
+	_ = num
 }
