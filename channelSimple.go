@@ -13,4 +13,6 @@ func main() {
 
 	fmt.Println("%T", "%T", "%T", c, c1, c2)
 	go x1(10, c)
+	n := <-c
+	fmt.Println("Value received:", n)
 }
