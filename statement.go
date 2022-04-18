@@ -8,11 +8,11 @@ func main() {
 
 	go func() {
 		time.Sleep(2 * time.Second)
-		c1 <- "Hello"
+		c1 <- "Hello!"
 	}()
 
 	go func() {
 		time.Sleep(2 * time.Second)
-		c1 <- "Salute"
+		c1 <- "Salut!"
 	}()
 }
