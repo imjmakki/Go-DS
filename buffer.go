@@ -21,4 +21,5 @@ func main() {
 	for v := range c {
 		fmt.Println("main goroutine received value from channel", v)
 	}
+	fmt.Println(<-c)
 }
