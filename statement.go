@@ -7,6 +7,6 @@ func main() {
 	c2 := make(chan string)
 
 	go func() {
-		time.Sleep()
+		time.Sleep(2 * time.Second)
 	}()
 }
