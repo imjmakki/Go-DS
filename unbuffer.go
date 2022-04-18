@@ -16,4 +16,6 @@ func main() {
 	}(c1)
 	fmt.Println("main goroutine sleeps for 2 seconds")
 	time.Sleep(time.Second * 2)
+
+	fmt.Println("main goroutine starts receiving data")
 }
