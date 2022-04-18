@@ -19,6 +19,6 @@ func main() {
 	time.Sleep(time.Second)
 
 	for v := range c {
-
+		fmt.Println("main goroutine received value from channel", v)
 	}
 }
