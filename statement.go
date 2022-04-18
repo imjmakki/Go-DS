@@ -25,7 +25,7 @@ func main() {
 		case msg1 := <-c1:
 			fmt.Println("Received:", msg1)
 		case msg2 := <-c2:
-			fmt.Println("", msg2)
+			fmt.Println("Received:", msg2)
 		}
 	}
 	end := time.Now().UnixNano() / 1000000
