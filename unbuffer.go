@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	c1 := make(chan int)
@@ -11,4 +14,6 @@ func main() {
 		c <- 10
 		fmt.Println("func goroutine after sending data into the channel")
 	}(c1)
+	fmt.Println("main goroutine sleeps for 2 seconds")
+	time.Sleep(time.Second * 2)
 }
