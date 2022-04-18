@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	start := time.Now().UnixNano() / 1000000
 	c1 := make(chan string)
 	c2 := make(chan string)
 
@@ -27,4 +28,6 @@ func main() {
 			fmt.Println("", msg2)
 		}
 	}
+	end := time.Now().UnixNano() / 1000000
+	fmt.Println(end - start)
 }
