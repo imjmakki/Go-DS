@@ -20,6 +20,7 @@ func main() {
 		c2 <- "Salut!"
 	}()
 
+	time.Sleep(time.Second * 2)
 	for i := 0; i < 2; i++ {
 		select {
 		case msg1 := <-c1:
