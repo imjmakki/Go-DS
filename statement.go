@@ -16,5 +16,10 @@ func main() {
 		c2 <- "Salut!"
 	}
 
-	for i := 0; i < 2; i++
+	for i := 0; i < 2; i++ {
+		select {
+		case msg1 := <-c1:
+
+		}
+	}
 }
