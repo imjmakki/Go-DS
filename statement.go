@@ -26,6 +26,8 @@ func main() {
 			fmt.Println("Received:", msg1)
 		case msg2 := <-c2:
 			fmt.Println("Received:", msg2)
+		default:
+			fmt.Println("No activity")
 		}
 	}
 	end := time.Now().UnixNano() / 1000000
