@@ -9,9 +9,9 @@ func main() {
 	c := make(chan int, 3)
 	go func(c chan int) {
 		for i := 1; i <= 5; i++ {
-			fmt.Println("func goroutine #%d starts sending data into the channel\n", i)
+			fmt.Printf("func goroutine #%d starts sending data into the channel\n", i)
 			c <- i
-			fmt.Println("func goroutine #%d after sending data into the channel\n", i)
+			fmt.Printf("func goroutine #%d after sending data into the channel\n", i)
 		}
 		close(c)
 	}(c)
