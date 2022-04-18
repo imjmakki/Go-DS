@@ -17,4 +17,8 @@ func main() {
 	}(c)
 	fmt.Println("main goroutine sleeps for 2 seconds")
 	time.Sleep(time.Second)
+
+	for v := range c {
+
+	}
 }
