@@ -19,4 +19,5 @@ func main() {
 
 	fmt.Println("main goroutine starts receiving data")
 	d := <-c1
+	fmt.Println("main goroutine starts received data:", d)
 }
