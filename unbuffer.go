@@ -18,4 +18,5 @@ func main() {
 	time.Sleep(time.Second * 2)
 
 	fmt.Println("main goroutine starts receiving data")
+	d := <-c1
 }
